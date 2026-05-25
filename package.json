@@ -4,7 +4,9 @@
   "description": "A standalone browser-based JavaScript dungeon game with age-based difficulty, JSON-driven rooms and mobile controls.",
   "private": true,
   "scripts": {
+    "build": "node scripts/build-static.js",
     "start": "npx serve .",
+    "start:dist": "npm run build && npx serve dist",
     "test": "node scripts/smoke-test.js"
   },
   "keywords": [
