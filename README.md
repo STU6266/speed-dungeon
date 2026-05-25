@@ -33,6 +33,28 @@ For a quick file-level smoke test:
 npm test
 ```
 
+Build the static files for hosting:
+
+```bash
+npm run build
+```
+
+The deployable output is written to `dist/`.
+
+## Deploy on Render
+
+This repo includes a `render.yaml` Blueprint for Render Static Sites.
+
+In Render:
+
+1. Click **New +**.
+2. Choose **Blueprint**.
+3. Connect `STU6266/speed-dungeon`.
+4. Select the `main` branch.
+5. Confirm the `speed-dungeon` static service.
+
+The Blueprint runs `npm test && npm run build` and publishes `./dist`.
+
 ## Tech Stack
 
 - HTML
@@ -46,6 +68,7 @@ npm test
 speed-dungeon/
 ├─ index.html
 ├─ package.json
+├─ render.yaml
 ├─ assets/
 │  ├─ css/
 │  │  ├─ app.css
