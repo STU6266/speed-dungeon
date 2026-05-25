@@ -1,0 +1,333 @@
+{
+  "8_11": [
+    {
+      "id": "group2_1",
+      "src": "assets/images/searchinggame/image_room_group2a.webp",
+      "alt": "Image hunt scene group 2 #1",
+      "targets": [
+        {
+          "id": 1,
+          "name": "Krone",
+          "x": 25,
+          "y": 48,
+          "width": 14,
+          "height": 10
+        },
+        {
+          "id": 2,
+          "name": "Spinne",
+          "x": 79,
+          "y": 12,
+          "width": 14,
+          "height": 15
+        },
+        {
+          "id": 3,
+          "name": "Ratte",
+          "x": 1,
+          "y": 60,
+          "width": 18,
+          "height": 14
+        },
+        {
+          "id": 4,
+          "name": "Schwert",
+          "x": 84,
+          "y": 51,
+          "width": 4,
+          "height": 14
+        },
+        {
+          "id": 5,
+          "name": "Knochen",
+          "x": 27,
+          "y": 87,
+          "width": 12,
+          "height": 12
+        }
+      ]
+    },
+    {
+      "id": "group2_2",
+      "src": "assets/images/searchinggame/image_room_group2b.webp",
+      "alt": "Image hunt scene group 2 #2",
+      "targets": [
+        {
+          "id": 1,
+          "name": "Spinne",
+          "x": 28,
+          "y": 13,
+          "width": 6,
+          "height": 11
+        },
+        {
+          "id": 2,
+          "name": "Totenkopf mit Helm",
+          "x": 88,
+          "y": 41,
+          "width": 6,
+          "height": 9
+        },
+        {
+          "id": 3,
+          "name": "Schlüssel",
+          "x": 30,
+          "y": 90,
+          "width": 6,
+          "height": 7
+        },
+        {
+          "id": 4,
+          "name": "Schwert",
+          "x": 68,
+          "y": 66,
+          "width": 9,
+          "height": 30
+        },
+        {
+          "id": 5,
+          "name": "Spinnennetz",
+          "x": 15,
+          "y": 3,
+          "width": 14,
+          "height": 20
+        }
+      ]
+    },
+    {
+      "id": "group2_3",
+      "src": "assets/images/searchinggame/image_room_group2c.webp",
+      "alt": "Image hunt scene group 2 #3",
+      "targets": [
+        {
+          "id": 1,
+          "name": "Schild",
+          "x": 3,
+          "y": 72,
+          "width": 10,
+          "height": 18
+        },
+        {
+          "id": 2,
+          "name": "Krone",
+          "x": 44,
+          "y": 51,
+          "width": 10,
+          "height": 10
+        },
+        {
+          "id": 3,
+          "name": "blaue Flasche",
+          "x": 29,
+          "y": 62,
+          "width": 8,
+          "height": 14
+        },
+        {
+          "id": 4,
+          "name": "Rüstung",
+          "x": 8,
+          "y": 52,
+          "width": 13,
+          "height": 16
+        },
+        {
+          "id": 5,
+          "name": "Buch",
+          "x": 53,
+          "y": 75,
+          "width": 13,
+          "height": 14
+        }
+      ]
+    },
+    {
+      "id": "group2_4",
+      "src": "assets/images/searchinggame/image_room_group2d.webp",
+      "alt": "Image hunt scene group 2 #4",
+      "targets": [
+        {
+          "id": 1,
+          "name": "Ratte",
+          "x": 34,
+          "y": 78,
+          "width": 15,
+          "height": 8
+        },
+        {
+          "id": 2,
+          "name": "Spinne",
+          "x": 85,
+          "y": 10,
+          "width": 7,
+          "height": 10
+        },
+        {
+          "id": 3,
+          "name": "Dolch",
+          "x": 6,
+          "y": 70,
+          "width": 21,
+          "height": 12
+        },
+        {
+          "id": 4,
+          "name": "Helm",
+          "x": 75,
+          "y": 17,
+          "width": 11,
+          "height": 14
+        },
+        {
+          "id": 5,
+          "name": "Hut",
+          "x": 43,
+          "y": 66,
+          "width": 18,
+          "height": 12
+        }
+      ]
+    },
+    {
+      "id": "group2_5",
+      "src": "assets/images/searchinggame/image_room_group2e.webp",
+      "alt": "Image hunt scene group 2 #5",
+      "targets": [
+        {
+          "id": 1,
+          "name": "Schild",
+          "x": 84,
+          "y": 64,
+          "width": 15,
+          "height": 21
+        },
+        {
+          "id": 2,
+          "name": "Krone",
+          "x": 28,
+          "y": 70,
+          "width": 17,
+          "height": 12
+        },
+        {
+          "id": 3,
+          "name": "Zaubertrank",
+          "x": 62,
+          "y": 75,
+          "width": 12,
+          "height": 18
+        },
+        {
+          "id": 4,
+          "name": "Buch",
+          "x": 36,
+          "y": 80,
+          "width": 23,
+          "height": 13
+        },
+        {
+          "id": 5,
+          "name": "Helm",
+          "x": 79,
+          "y": 6,
+          "width": 18,
+          "height": 19
+        }
+      ]
+    },
+    {
+      "id": "group2_6",
+      "src": "assets/images/searchinggame/image_room_group2f.webp",
+      "alt": "Image hunt scene group 2 #6",
+      "targets": [
+        {
+          "id": 1,
+          "name": "Ratte",
+          "x": 36,
+          "y": 60,
+          "width": 17,
+          "height": 11
+        },
+        {
+          "id": 2,
+          "name": "grauer Edelstein",
+          "x": 10,
+          "y": 16,
+          "width": 7,
+          "height": 10
+        },
+        {
+          "id": 3,
+          "name": "Spinne",
+          "x": 85,
+          "y": 11,
+          "width": 8,
+          "height": 9
+        },
+        {
+          "id": 4,
+          "name": "Schlüssel",
+          "x": 73,
+          "y": 87,
+          "width": 17,
+          "height": 13
+        },
+        {
+          "id": 5,
+          "name": "Buch",
+          "x": 61,
+          "y": 72,
+          "width": 18,
+          "height": 19
+        }
+      ]
+    },
+    {
+      "id": "group2_10",
+      "src": "assets/images/searchinggame/image_room_group2j.webp",
+      "alt": "Image hunt scene group 2 #10",
+      "targets": [
+        {
+          "id": 1,
+          "name": "blauer Edelstein",
+          "x": 14,
+          "y": 80,
+          "width": 10,
+          "height": 11
+        },
+        {
+          "id": 2,
+          "name": "lila Edelstein",
+          "x": 85,
+          "y": 60,
+          "width": 11,
+          "height": 15
+        },
+        {
+          "id": 3,
+          "name": "Zauberhut",
+          "x": 18,
+          "y": 59,
+          "width": 20,
+          "height": 17
+        },
+        {
+          "id": 4,
+          "name": "Krug",
+          "x": 2,
+          "y": 63,
+          "width": 11,
+          "height": 13
+        },
+        {
+          "id": 5,
+          "name": "blauer Zaubertrank",
+          "x": 5,
+          "y": 23,
+          "width": 6,
+          "height": 13
+        }
+      ]
+    }
+  ]
+}

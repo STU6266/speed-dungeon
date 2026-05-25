@@ -1,0 +1,304 @@
+{
+  "riddles": [
+    {
+      "id": 1,
+      "question": "Ich habe viele Zähne, aber ich esse nichts. Ich helfe dir, deine Haare in Ordnung zu bringen. Was bin ich?",
+      "correctAnswer": "Ein Kamm",
+      "wrongAnswers": ["Eine Gabel", "Ein Lineal"]
+    },
+    {
+      "id": 2,
+      "question": "Ich habe viele Tasten, aber keine Tür. Aus mir kommen Töne und Musik. Was bin ich?",
+      "correctAnswer": "Ein Klavier",
+      "wrongAnswers": ["Ein Schrank", "Ein Fernseher"]
+    },
+    {
+      "id": 3,
+      "question": "Ich habe viele Seiten, aber kein Gesicht. Ich kenne Geschichten, aber kann nicht sprechen. Was bin ich?",
+      "correctAnswer": "Ein Buch",
+      "wrongAnswers": ["Ein Computer", "Eine Tasche"]
+    },
+    {
+      "id": 4,
+      "question": "Ich bin unsichtbar, doch du spürst mich im Gesicht. Ich puste Blätter durch die Luft. Was bin ich?",
+      "correctAnswer": "Der Wind",
+      "wrongAnswers": ["Der Regen", "Der Donner"]
+    },
+    {
+      "id": 5,
+      "question": "Ich kann dich sehen, aber nur, wenn du mich anschaust. Ich mache alles nach, was du tust. Was bin ich?",
+      "correctAnswer": "Ein Spiegelbild",
+      "wrongAnswers": ["Ein Foto", "Ein Schatten"]
+    },
+    {
+      "id": 6,
+      "question": "Ich folge dir überall hin, doch ich berühre dich nie. Im Dunkeln bin ich verschwunden. Was bin ich?",
+      "correctAnswer": "Dein Schatten",
+      "wrongAnswers": ["Dein Rucksack", "Dein Hund"]
+    },
+    {
+      "id": 7,
+      "question": "Ich habe zwei Zeiger, laufe immer im Kreis und höre nie auf. Was bin ich?",
+      "correctAnswer": "Eine Uhr",
+      "wrongAnswers": ["Ein Kompass", "Eine Waage"]
+    },
+    {
+      "id": 8,
+      "question": "Ich laufe über das Feld, habe aber keine Füße. Ich male Spuren in den Schnee. Was bin ich?",
+      "correctAnswer": "Der Wind",
+      "wrongAnswers": ["Ein Traktor", "Ein Vogel"]
+    },
+    {
+      "id": 9,
+      "question": "Ich bin voll mit Löchern, aber kann trotzdem Wasser halten. Was bin ich?",
+      "correctAnswer": "Ein Schwamm",
+      "wrongAnswers": ["Ein Sieb", "Ein Becher"]
+    },
+    {
+      "id": 10,
+      "question": "Ich mache dich nass, verbrenne aber nicht. Ich falle vom Himmel und kann stark oder schwach sein. Was bin ich?",
+      "correctAnswer": "Der Regen",
+      "wrongAnswers": ["Das Feuer", "Der Nebel"]
+    },
+    {
+      "id": 11,
+      "question": "Ich kann laut sein, aber ich habe keinen Mund. Du hörst mich, wenn etwas zurückruft, was du geschrien hast. Was bin ich?",
+      "correctAnswer": "Ein Echo",
+      "wrongAnswers": ["Ein Radio", "Ein Vogelruf"]
+    },
+    {
+      "id": 12,
+      "question": "Je mehr du von mir nimmst, desto größer werde ich. Was bin ich?",
+      "correctAnswer": "Ein Loch",
+      "wrongAnswers": ["Ein Kuchen", "Ein Ball"]
+    },
+    {
+      "id": 13,
+      "question": "Ich habe eine Spule und Faden, doch ich bin keine Spinne. Ich halte Stoffstücke zusammen. Was bin ich?",
+      "correctAnswer": "Eine Nähmaschine",
+      "wrongAnswers": ["Ein Reißverschluss", "Eine Schere"]
+    },
+    {
+      "id": 14,
+      "question": "Ich wohne in der Küche. Wenn mir kalt ist, wird dein Essen heiß. Was bin ich?",
+      "correctAnswer": "Der Herd",
+      "wrongAnswers": ["Der Kühlschrank", "Der Wasserkocher"]
+    },
+    {
+      "id": 15,
+      "question": "Ich bin nie müde und renne doch immer. Manchmal bin ich schnell, manchmal ganz langsam. Was bin ich?",
+      "correctAnswer": "Die Zeit",
+      "wrongAnswers": ["Ein Zug", "Ein Hund"]
+    },
+    {
+      "id": 16,
+      "question": "Ich habe eine Spitze, aber ich piekse dich nicht. Ich schreibe Spuren auf Papier. Was bin ich?",
+      "correctAnswer": "Ein Bleistift",
+      "wrongAnswers": ["Eine Nadel", "Ein Messer"]
+    },
+    {
+      "id": 17,
+      "question": "Ich kann dich überallhin bringen, ohne dass du dich bewegst. Ich zeige dir fremde Orte, Tiere und Menschen. Was bin ich?",
+      "correctAnswer": "Ein Buch oder Film",
+      "wrongAnswers": ["Ein Zugticket", "Eine Landkarte"]
+    },
+    {
+      "id": 18,
+      "question": "Ich bin weich, aber stark. Ich binde Schuhe, Pakete und manchmal sogar Haare. Was bin ich?",
+      "correctAnswer": "Ein Band oder Schnürsenkel",
+      "wrongAnswers": ["Ein Stift", "Ein Lineal"]
+    },
+    {
+      "id": 19,
+      "question": "Ich öffne Türen, doch ich habe weder Hände noch Füße. Ich bin klein und aus Metall. Was bin ich?",
+      "correctAnswer": "Ein Schlüssel",
+      "wrongAnswers": ["Ein Knopf", "Eine Schraube"]
+    },
+    {
+      "id": 20,
+      "question": "Ich leuchte nur nachts und verschwinde am Morgen. Ich bin weit weg, aber du siehst mich funkeln. Was bin ich?",
+      "correctAnswer": "Ein Stern",
+      "wrongAnswers": ["Eine Lampe", "Ein Glühwürmchen"]
+    },
+    {
+      "id": 21,
+      "question": "Ich spreche alle Sprachen, aber habe keine Zunge. Ich kann sehr laut sein, wenn ich aufgedreht werde. Was bin ich?",
+      "correctAnswer": "Der Fernseher",
+      "wrongAnswers": ["Ein Lehrer", "Ein Papagei"]
+    },
+    {
+      "id": 22,
+      "question": "Ich wohne in deiner Federtasche. Ohne mich sehen deine Hefte schnell chaotisch aus. Was bin ich?",
+      "correctAnswer": "Ein Radiergummi",
+      "wrongAnswers": ["Ein Zirkel", "Ein Spitzer"]
+    },
+    {
+      "id": 23,
+      "question": "Ich habe Blätter, aber keinen Stamm. Ich kann laut rascheln, wenn du mich durchblätterst. Was bin ich?",
+      "correctAnswer": "Ein Heft",
+      "wrongAnswers": ["Ein Busch", "Ein Kissen"]
+    },
+    {
+      "id": 24,
+      "question": "Ich bin ein Haus für Wörter, Bilder und manchmal Spiele. Ich bin aus Plastik und Glas. Was bin ich?",
+      "correctAnswer": "Ein Tablet oder Handy",
+      "wrongAnswers": ["Eine Schultasche", "Ein Regal"]
+    },
+    {
+      "id": 25,
+      "question": "Ich habe Flügel, aber ich bin kein Vogel. Ich bringe dir Briefe oder Pakete. Was bin ich?",
+      "correctAnswer": "Ein Flugzeug oder ein Postflugzeug",
+      "wrongAnswers": ["Ein U-Boot", "Ein Fahrradkurier"]
+    },
+    {
+      "id": 26,
+      "question": "Ich bin voller Wasser und schlage Wellen. Schiffe fahren auf mir, aber ich habe keine Straße. Was bin ich?",
+      "correctAnswer": "Das Meer",
+      "wrongAnswers": ["Ein Swimmingpool", "Ein Wasserhahn"]
+    },
+    {
+      "id": 27,
+      "question": "Ich habe ein Nest, aber keine Eier. Aus mir kommen Töne und Musik in deinem Zimmer. Was bin ich?",
+      "correctAnswer": "Ein Lautsprecher",
+      "wrongAnswers": ["Ein Vogelhaus", "Eine Trommel"]
+    },
+    {
+      "id": 28,
+      "question": "Ich bin manchmal weich, manchmal steinig. Auf mir läufst du jeden Tag. Was bin ich?",
+      "correctAnswer": "Der Boden",
+      "wrongAnswers": ["Die Wand", "Die Decke"]
+    },
+    {
+      "id": 29,
+      "question": "Ich kann kleiner werden, wenn du mich benutzt. Ich male bunt, bis ich zu kurz bin. Was bin ich?",
+      "correctAnswer": "Ein Buntstift",
+      "wrongAnswers": ["Ein Pinsel", "Ein Radiergummi"]
+    },
+    {
+      "id": 30,
+      "question": "Ich klingle, wenn jemand vor der Tür steht. Ich habe keinen Mund, aber alle hören mich. Was bin ich?",
+      "correctAnswer": "Die Türklingel",
+      "wrongAnswers": ["Der Wecker", "Der Staubsauger"]
+    },
+    {
+      "id": 31,
+      "question": "Ich trage eine Nadel, aber ich nähe nicht. Ich drehe mich im Kreis, und viele bunte Wagen hängen an mir. Was bin ich?",
+      "correctAnswer": "Ein Karussell",
+      "wrongAnswers": ["Ein Fahrrad", "Eine Uhr"]
+    },
+    {
+      "id": 32,
+      "question": "Ich bin ein Tier mit Streifen. Manchmal bin ich auf der Straße, damit du sicher überqueren kannst. Was bin ich?",
+      "correctAnswer": "Ein Zebrastreifen",
+      "wrongAnswers": ["Ein Tiger", "Ein Fußweg"]
+    },
+    {
+      "id": 33,
+      "question": "Ich habe viele Stufen, aber keine Füße. Ich helfe dir, nach oben zu kommen. Was bin ich?",
+      "correctAnswer": "Eine Treppe",
+      "wrongAnswers": ["Ein Fahrstuhl", "Ein Stuhl"]
+    },
+    {
+      "id": 34,
+      "question": "Ich bin immer vor dir oder hinter dir, aber nie im Schrank. Ich zeige dir, wo du hingehen kannst. Was bin ich?",
+      "correctAnswer": "Der Weg",
+      "wrongAnswers": ["Das Bett", "Der Rucksack"]
+    },
+    {
+      "id": 35,
+      "question": "Ich kann dich wärmen, obwohl ich nur Stoff bin. Nachts liegst du unter mir. Was bin ich?",
+      "correctAnswer": "Eine Decke",
+      "wrongAnswers": ["Ein Tuch", "Ein Teppich"]
+    },
+    {
+      "id": 36,
+      "question": "Ich habe eine lange Zunge, die Schrift frisst. Ich mag Papier sehr. Was bin ich?",
+      "correctAnswer": "Ein Klebestift",
+      "wrongAnswers": ["Ein Hund", "Ein Toaster"]
+    },
+    {
+      "id": 37,
+      "question": "Ich habe Blätter, werde aber nicht müde. Ich trinke Wasser durch meine Wurzeln. Was bin ich?",
+      "correctAnswer": "Eine Pflanze",
+      "wrongAnswers": ["Ein Schwamm", "Ein Kissen"]
+    },
+    {
+      "id": 38,
+      "question": "Ich habe ein Gesicht mit Zahlen und Zeigern. Wenn du auf mich drückst, werde ich manchmal still. Was bin ich?",
+      "correctAnswer": "Ein Wecker",
+      "wrongAnswers": ["Eine Stoppuhr", "Ein Kalender"]
+    },
+    {
+      "id": 39,
+      "question": "Ich bin ein Haus für Tiere. Ich kann ein Stall, ein Käfig oder ein Aquarium sein. Wie heiße ich allgemein?",
+      "correctAnswer": "Ein Gehege",
+      "wrongAnswers": ["Eine Garage", "Ein Zelt"]
+    },
+    {
+      "id": 40,
+      "question": "Ich habe viele Farben und liege in einem Kasten. Künstler benutzen mich mit Wasser. Was bin ich?",
+      "correctAnswer": "Ein Malkasten mit Wasserfarben",
+      "wrongAnswers": ["Ein Bleistiftkasten", "Ein Werkzeugkasten"]
+    },
+    {
+      "id": 41,
+      "question": "Ich beschütze dein Essen im Rucksack. Ich bin aus Metall oder Plastik und du isst direkt aus mir. Was bin ich?",
+      "correctAnswer": "Eine Brotdose",
+      "wrongAnswers": ["Eine Tasse", "Ein Teller"]
+    },
+    {
+      "id": 42,
+      "question": "Ich bin schnell, aber du kannst mich nicht sehen. Ich bringe Nachrichten von einem Telefon zum anderen. Was bin ich?",
+      "correctAnswer": "Das Internet oder ein Funksignal",
+      "wrongAnswers": ["Ein Fahrradkurier", "Ein Bus"]
+    },
+    {
+      "id": 43,
+      "question": "Ich lebe im Wald, trage ein Geweih und bin sehr scheu. Wer bin ich?",
+      "correctAnswer": "Ein Reh oder Hirsch",
+      "wrongAnswers": ["Ein Wolf", "Ein Dachs"]
+    },
+    {
+      "id": 44,
+      "question": "Ich bin ein kleines Haus, das du auf den Rücken tragen kannst. Ich gehöre einem Tier, das sehr langsam ist. Was bin ich?",
+      "correctAnswer": "Das Schneckenhaus",
+      "wrongAnswers": ["Der Igelbau", "Ein Vogelnest"]
+    },
+    {
+      "id": 45,
+      "question": "Ich habe Seiten wie ein Buch, aber ich hänge an der Wand. Jeden Monat blättern deine Eltern in mir weiter. Was bin ich?",
+      "correctAnswer": "Ein Kalender",
+      "wrongAnswers": ["Ein Poster", "Ein Spiegel"]
+    },
+    {
+      "id": 46,
+      "question": "Ich bin ein Gefäß mit Henkel. In mir ist manchmal Tee, manchmal Kakao. Was bin ich?",
+      "correctAnswer": "Eine Tasse",
+      "wrongAnswers": ["Eine Schüssel", "Ein Glas"]
+    },
+    {
+      "id": 47,
+      "question": "Ich bin ein Tier, das Eier legt und Federn hat, aber nicht fliegen kann. Ich lebe auf dem Bauernhof. Wer bin ich?",
+      "correctAnswer": "Ein Huhn",
+      "wrongAnswers": ["Ein Pinguin", "Ein Schaf"]
+    },
+    {
+      "id": 48,
+      "question": "Ich habe ein Dach und Räder, manchmal sogar Betten und Küche. Menschen machen mit mir Urlaub. Was bin ich?",
+      "correctAnswer": "Ein Wohnwagen",
+      "wrongAnswers": ["Ein Zelt", "Ein Schnellzug"]
+    },
+    {
+      "id": 49,
+      "question": "Ich kann dir ein Geheimnis erzählen, aber ich schreibe nur Zeichen. Ich bin klein und liege oft neben dem Telefon. Was bin ich?",
+      "correctAnswer": "Ein Notizzettel",
+      "wrongAnswers": ["Ein Ticket", "Ein Lesezeichen"]
+    },
+    {
+      "id": 50,
+      "question": "Ich bin kein Tier und kein Mensch, aber ich habe einen Schwanz. Ich bin eine Linie, die du an etwas dranhängst, wenn du zeichnest. Was bin ich?",
+      "correctAnswer": "Eine Sprech- oder Denkblase mit Schweif im Comic",
+      "wrongAnswers": ["Ein Drache", "Ein Schnürsenkel"]
+    }
+  ]
+}

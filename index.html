@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Speed Dungeon is a browser-based JavaScript dungeon game with age-based difficulty, JSON-driven rooms, mobile controls and a final boss fight." />
+  <title>Speed Dungeon - JavaScript Browser Game</title>
+  <link rel="stylesheet" href="assets/css/app.css" />
+  <link rel="stylesheet" href="assets/css/speed-dungeon.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div class="app-header-inner">
+      <p class="app-eyebrow">JavaScript Browser Game</p>
+      <h1>Speed Dungeon</h1>
+      <p>Clear rooms, collect power and survive the final boss before the timer runs out.</p>
+    </div>
+  </header>
+
+<main class="app-layout">
+  <!-- Intro header -->
+  <section class="projects-header speed-dungeon-header">
+    <h2>Speed Dungeon – JavaScript Browser Game</h2>
+    <p>
+      A fast reaction dungeon game concept. This prototype showcases multiple
+      rooms: a corridor lane run, a reaction-based fight room, a math-based
+      lock room, an image hunt room, and a riddle room. All rooms are adapted
+      to different age groups and are played within a limited run time.
+    </p>
+  </section>
+
+  <!-- Layout: sidebar (HUD) + main game area -->
+  <section class="speed-dungeon-layout">
+    <!-- Sidebar: age selection + global HUD -->
+    <aside class="speed-dungeon-sidebar" aria-label="Game settings and stats">
+      
+      <div class="sd-hud card">
+        <h3 class="sd-hud-title">Run stats</h3>
+        <dl class="sd-hud-list">
+          <div class="sd-hud-row">
+            <dt>Rooms cleared</dt>
+            <dd id="sd-rooms">0</dd>
+          </div>
+          <div class="sd-hud-row">
+            <dt>Power points</dt>
+            <dd id="sd-power">0</dd>
+          </div>
+          <div class="sd-hud-row">
+            <dt>Run time left</dt>
+            <dd id="sd-timer">03:00</dd>
+          </div>
+        </dl>
+        
+        <!-- Developer test controls. Hidden in normal portfolio view. -->
+        <div class="sd-actions sd-test-actions is-hidden">
+          <button id="sd-start-corridor-btn" class="btn primary sd-start-btn" type="button">
+            Start Corridor
+          </button>
+          <button id="sd-start-fight-btn" class="btn sd-start-btn">
+            Start Fight Room
+          </button>
+          <button id="sd-start-lock-btn" class="btn sd-start-btn">
+            Start Lock Room
+          </button>
+          <button id="sd-start-image-btn" class="btn sd-start-btn">
+            Start Image Room
+          </button>
+          <button id="sd-start-riddle-btn" class="btn sd-start-btn">
+            Start Riddle Room
+          </button>
+          <button id="sd-start-boss-btn" class="btn sd-start-btn sd-test-boss-btn" type="button">
+            Start Boss (Test)
+          </button>
+          <button id="sd-stop-btn" class="btn sd-start-btn sd-test-stop-btn" type="button">
+            Stop (nur zum Testen)
+          </button>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main game area -->
+    <section class="speed-dungeon-main" aria-label="Current room">
+      <div id="speed-dungeon-root" class="speed-dungeon-root card">
+        <div id="sd-start-panel" class="sd-start-panel">
+          <p id="sd-status" class="sd-status" aria-live="polite">
+            A brave adventurer enters the Speed Dungeon. You must move from room to room and survive as many challenges as possible before time runs out. In the corridor, dodge the dungeon walls with A and D. In other rooms, you may need to find a hidden object, crack a number lock by solving math problems, react quickly against dangerous creatures, or answer a riddle to move forward.
+            <br><br>
+            Each cleared room gives you power for the final battle. If you complete a room without mistakes, you earn extra power. After 3 minutes, the final boss appears. Dodge its attacks with A, S, and D, then wait for an opening and strike with W. The stronger you became in the dungeon, the better your chance to defeat the boss.
+          </p>
+
+          <form id="sd-age-form" class="sd-age-form sd-age-form-main">
+            <fieldset>
+              <legend>Choose your age group</legend>
+
+              <label>
+                <input type="radio" name="sd-age" value="0_7" checked />
+                0–7 years
+              </label>
+
+              <label>
+                <input type="radio" name="sd-age" value="8_11" />
+                8–11 years
+              </label>
+
+              <label>
+                <input type="radio" name="sd-age" value="12_15" />
+                12–15 years
+              </label>
+
+              <label>
+                <input type="radio" name="sd-age" value="16_plus" />
+                16+ years
+              </label>
+            </fieldset>
+          </form>
+
+          <button id="sd-start-dungeon-btn" class="btn primary sd-start-dungeon-btn" type="button">
+            Start Dungeon
+          </button>
+        </div>
+
+        <!-- Corridor room UI -->
+        <div
+          id="sd-corridor-container"
+          class="sd-room sd-room-corridor is-hidden"
+        >
+          <h3 class="sd-room-title">Corridor (lane run)</h3>
+
+          <div class="sd-room-visual">
+            <div class="sd-room-visual-inner">
+              <div class="sd-corridor-wrapper">
+                <p id="sd-corridor-info" class="sd-corridor-info">
+                  Start the corridor to run through 3 lanes and dodge obstacles with A and D.
+                </p>
+
+                <!-- Track: Player + Hindernisse werden per JS eingefügt -->
+                <div id="sd-corridor-track" class="sd-corridor-track">
+                  <!-- JS erstellt hier .sd-corridor-player und .sd-corridor-obstacle Elemente -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fight room UI -->
+        <div id="sd-fight-container" class="sd-room sd-room-fight is-hidden">
+          <h3 class="sd-room-title">Fight Room (reaction)</h3>
+
+          <!-- großes Bild + A/D im Vordergrund -->
+          <div class="sd-fight-ui sd-picture-room">
+            <img
+              id="sd-fight-image"
+              src=""
+              alt=""
+              class="sd-picture-room-img"
+              draggable="false"
+            />
+
+            <div class="sd-target-box">
+              <p class="sd-label">Target key</p>
+              <p id="sd-target" class="sd-target-key">–</p>
+              
+              <div id="sd-fight-progress-track" class="sd-progress-track">
+                <div id="sd-fight-progress-bar" class="sd-progress-bar"></div>
+              </div>
+            </div>
+
+            <!-- Debug-Infos bleiben versteckt (display:none in CSS) -->
+            <div class="sd-info-box">
+              <p id="sd-hits" class="sd-info-line">Hits: 0 / 0</p>
+              <p id="sd-time" class="sd-info-line">Time limit: – ms</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Lock room UI -->
+        <div
+          id="sd-lock-container"
+          class="sd-room sd-room-lock is-hidden"
+        >
+          <h3 class="sd-room-title">Lock Room (number combination)</h3>
+
+          <!-- gemeinsamer großer Bildbereich wie beim Fight -->
+          <div class="sd-room-visual">
+            <div class="sd-room-visual-inner">
+              <div id="sd-lock-area" class="sd-lock-area sd-picture-room">
+                <img
+                  id="sd-lock-image"
+                  src=""
+                  alt=""
+                  class="sd-picture-room-img"
+                  draggable="false"
+                />
+
+                <div class="sd-lock-overlay">
+                  <p id="sd-lock-question" class="sd-lock-question">
+                    Start the lock room to see a math question.
+                  </p>
+
+                  <div
+                    id="sd-lock-answers"
+                    class="sd-lock-answers"
+                    role="group"
+                  >
+                    <!-- answer buttons injected by JS -->
+                  </div>
+
+                  <p class="sd-lock-combo-label">Current combination:</p>
+                  <p id="sd-lock-combo" class="sd-lock-combo">–</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Image hunt room UI -->
+        <div
+          id="sd-image-container"
+          class="sd-room sd-room-image is-hidden"
+        >
+          <h3 class="sd-room-title">Image Room (object search)</h3>
+
+          <div class="sd-room-visual">
+            <div class="sd-room-visual-inner">
+              <div id="sd-image-instruction" class="sd-image-instruction">
+                Start the image room to see a picture and an object to find.
+              </div>
+
+              <div class="sd-image-wrapper">
+                <img
+                  id="sd-image"
+                  src=""
+                  alt=""
+                  class="sd-image"
+                  draggable="false"
+                />
+                <div id="sd-image-hotspots" class="sd-image-hotspots"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Riddle room UI -->
+        <div
+          id="sd-riddle-container"
+          class="sd-room sd-room-riddle is-hidden"
+        >
+          <h3 class="sd-room-title">Riddle Room (logic &amp; wordplay)</h3>
+
+          <div class="sd-riddle-area sd-picture-room">
+            <img
+              id="sd-riddle-image"
+              src=""
+              alt=""
+              class="sd-picture-room-img"
+              draggable="false"
+            />
+
+            <div class="sd-riddle-overlay">
+              <p class="sd-riddle-speaker">Smart Cat asks:</p>
+
+              <p id="sd-riddle-question" class="sd-riddle-question">
+                Start the riddle room to see a question.
+              </p>
+
+              <div
+                id="sd-riddle-answers"
+                class="sd-riddle-answers"
+                role="group"
+              >
+                <!-- answer buttons injected by JS -->
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Boss Fight UI -->
+        <div id="sd-boss-container" class="sd-room sd-room-boss is-hidden">
+          <h3 class="sd-room-title">Boss Fight</h3>
+
+          <div class="sd-boss-ui">
+            <div class="sd-boss-hpbar-wrapper">
+              <span class="sd-boss-hpbar-label">Boss HP</span>
+              <div class="sd-boss-hpbar-track">
+                <div id="sd-boss-hpbar" class="sd-boss-hpbar"></div>
+              </div>
+            </div>
+
+            <div class="sd-player-hpbar-wrapper">
+              <span class="sd-player-hpbar-label">Your HP</span>
+              <div class="sd-player-hpbar-track">
+                <div id="sd-player-hpbar" class="sd-player-hpbar"></div>
+              </div>
+            </div>
+
+            <div class="sd-boss-arena">
+              <div id="sd-boss-bg" class="sd-boss-bg sd-picture-room">
+                <img
+                  id="sd-boss-image"
+                  src=""
+                  alt=""
+                  class="sd-picture-room-img"
+                  draggable="false"
+                />
+
+                <div class="sd-target-box">
+                  <p class="sd-label">Boss</p>
+                  <p id="sd-boss-prompt" class="sd-target-key">–</p>
+                  <div id="sd-boss-progress-track" class="sd-progress-track">
+                    <div id="sd-boss-progress-bar" class="sd-progress-bar"></div>
+                  </div>
+                  <p id="sd-boss-hint" class="sd-boss-hint"></p>
+                </div>
+              </div>
+            </div>
+
+            <div id="sd-boss-endscreen" class="sd-boss-endscreen is-hidden">
+              <h2 id="sd-boss-result-title"></h2>
+              <p id="sd-boss-result-text"></p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Mobile touch controls: shown only on small screens and only in rooms that need them -->
+        <div id="sd-mobile-controls" class="sd-mobile-controls is-hidden" aria-label="Mobile touch controls">
+          <div id="sd-mobile-corridor-controls" class="sd-mobile-control-set is-hidden" aria-label="Corridor controls">
+            <button type="button" class="sd-mobile-control-btn" data-sd-mobile-key="A" aria-label="Move left">←</button>
+            <button type="button" class="sd-mobile-control-btn" data-sd-mobile-key="D" aria-label="Move right">→</button>
+          </div>
+
+          <div id="sd-mobile-fight-controls" class="sd-mobile-control-set is-hidden" aria-label="Fight controls">
+            <button type="button" class="sd-mobile-control-btn" data-sd-mobile-key="A" aria-label="Press A">A</button>
+            <button type="button" class="sd-mobile-control-btn" data-sd-mobile-key="D" aria-label="Press D">D</button>
+          </div>
+
+          <div id="sd-mobile-boss-controls" class="sd-mobile-control-set sd-mobile-control-set--boss is-hidden" aria-label="Boss fight controls">
+            <button type="button" class="sd-mobile-control-btn" data-sd-mobile-key="A" aria-label="Press A">A</button>
+            <button type="button" class="sd-mobile-control-btn" data-sd-mobile-key="S" aria-label="Press S">S</button>
+            <button type="button" class="sd-mobile-control-btn" data-sd-mobile-key="D" aria-label="Press D">D</button>
+            <button type="button" class="sd-mobile-control-btn sd-mobile-control-btn--attack" data-sd-mobile-key="W" aria-label="Press W to attack">W</button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </section>
+</main>
+
+  <footer class="app-footer">
+    <p>Built with vanilla JavaScript, HTML, CSS and JSON data.</p>
+  </footer>
+  <script src="assets/js/speed-dungeon.js" defer></script>
+</body>
+</html>

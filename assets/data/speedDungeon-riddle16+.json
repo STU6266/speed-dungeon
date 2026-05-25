@@ -1,0 +1,604 @@
+{
+  "riddles": [
+    {
+      "id": 1,
+      "question": "Man hört mich, bevor ich geboren werde, und oft noch, nachdem ich längst vorbei bin. Ich existiere nur, solange mich jemand wahrnimmt. Was bin ich?",
+      "correctAnswer": "Ein Echo",
+      "wrongAnswers": ["Ein Gedanke", "Ein Traum", "Ein Gerücht", "Eine Erinnerung"]
+    },
+    {
+      "id": 2,
+      "question": "Je mehr du von mir besitzt, desto weniger kannst du sehen. Ich fülle Räume, ohne Gewicht zu haben. Was bin ich?",
+      "correctAnswer": "Dunkelheit",
+      "wrongAnswers": ["Staub", "Nebel", "Schlaf", "Schweigen"]
+    },
+    {
+      "id": 3,
+      "question": "Ich wachse, ohne zu leben, und sterbe, ohne je geboren zu sein. Ich kann wärmen oder alles zerstören. Was bin ich?",
+      "correctAnswer": "Feuer",
+      "wrongAnswers": ["Rost", "Zeit", "Schimmel", "Eis"]
+    },
+    {
+      "id": 4,
+      "question": "Ich habe eine Zunge, aber keinen Mund. Ich habe eine Seele, aber keinen Körper. Ich werde stärker, wenn du mich mit anderen teilst. Was bin ich?",
+      "correctAnswer": "Eine Sprache",
+      "wrongAnswers": ["Ein Geheimnis", "Ein Lied", "Eine Religion", "Ein Witz"]
+    },
+    {
+      "id": 5,
+      "question": "Ich lebe nur im Jetzt, doch spreche von Vergangenheit und Zukunft. Ich bin stumm, solange du schweigst, und rede, sobald du denkst. Was bin ich?",
+      "correctAnswer": "Dein innerer Monolog",
+      "wrongAnswers": ["Ein Tagebuch", "Ein Radiosender", "Ein Traum", "Eine Erinnerung"]
+    },
+    {
+      "id": 6,
+      "question": "Ich kann antworten, ohne zu hören, und zeigen, ohne zu sehen. Man stellt mir Fragen, ohne ein Wort zu sagen. Was bin ich?",
+      "correctAnswer": "Eine Suchmaschine",
+      "wrongAnswers": ["Ein Orakel", "Ein Spiegel", "Ein Lehrer", "Ein Lexikon"]
+    },
+    {
+      "id": 7,
+      "question": "Ich trage Städte und Länder in mir und passe doch in eine Hand. Je genauer ich werde, desto weniger kann man wirklich sehen. Was bin ich?",
+      "correctAnswer": "Eine Karte",
+      "wrongAnswers": ["Ein Globus", "Ein Reiseführer", "Ein Ticket", "Ein Ausweis"]
+    },
+    {
+      "id": 8,
+      "question": "Ich kann gebrochen werden, ohne je ganz gewesen zu sein. Wenn ich gehalten werde, bin ich wertlos, doch wenn man mich hält, kann ich alles verändern. Was bin ich?",
+      "correctAnswer": "Ein Versprechen",
+      "wrongAnswers": ["Ein Glas", "Ein Vertrag", "Ein Geheimnis", "Ein Herz"]
+    },
+    {
+      "id": 9,
+      "question": "Ich begleite jede Entscheidung, doch niemand sieht mich. Manchmal bereut man mich, obwohl ich niemals gehandelt habe. Was bin ich?",
+      "correctAnswer": "Der Zweifel",
+      "wrongAnswers": ["Das Gewissen", "Die Angst", "Die Hoffnung", "Die Vernunft"]
+    },
+    {
+      "id": 10,
+      "question": "Ich kann dich reich machen, ohne dir etwas zu geben. Ich kann dich arm machen, ohne dir etwas zu nehmen. Was bin ich?",
+      "correctAnswer": "Eine Illusion",
+      "wrongAnswers": ["Ein Spiel", "Ein Vertrag", "Ein Betrug", "Ein Traum"]
+    },
+    {
+      "id": 11,
+      "question": "Ich bin eine Reise, die mit einem einzigen Schritt in deinem Kopf beginnt. Kein Ticket, kein Gepäck, kein Ziel ist nötig. Was bin ich?",
+      "correctAnswer": "Die Fantasie",
+      "wrongAnswers": ["Ein Traum", "Meditation", "Ein Roman", "Ein Film"]
+    },
+    {
+      "id": 12,
+      "question": "Ich verändere jede Geschichte, sobald ich auftauche. Ich bin kurz und doch oft endlos. Man fürchtet mich in Pausen und liebt mich in Streitigkeiten. Was bin ich?",
+      "correctAnswer": "Stille",
+      "wrongAnswers": ["Zeitdruck", "Langeweile", "Erleichterung", "Schlaf"]
+    },
+    {
+      "id": 13,
+      "question": "Je mehr du von mir nimmst, desto länger werde ich. Ich bleibe zurück, wenn du weitergehst. Was bin ich?",
+      "correctAnswer": "Eine Spur",
+      "wrongAnswers": ["Ein Schatten", "Ein Weg", "Ein Gedanke", "Ein Echo"]
+    },
+    {
+      "id": 14,
+      "question": "Ich gehöre dir, aber andere gebrauchen mich ständig. Du kannst mich wechseln, ohne dich zu verändern. Was bin ich?",
+      "correctAnswer": "Dein Name",
+      "wrongAnswers": ["Deine Adresse", "Deine Kleidung", "Deine Rolle", "Dein Beruf"]
+    },
+    {
+      "id": 15,
+      "question": "Ich atme nicht, doch ohne Luft verschwinde ich. Ich esse nicht, doch Holz macht mich größer. Was bin ich?",
+      "correctAnswer": "Feuer",
+      "wrongAnswers": ["Rost", "Ein Pilz", "Ein Sturm", "Schimmel"]
+    },
+    {
+      "id": 16,
+      "question": "Ich bin überall und doch schwer zu finden. Je genauer du mich suchst, desto leichter entgleite ich. Was bin ich?",
+      "correctAnswer": "Perfektion",
+      "wrongAnswers": ["Ein Schlüssel", "Ein Fehler", "Ein Muster", "Ein Zufall"]
+    },
+    {
+      "id": 17,
+      "question": "Ich habe viele Schlüssel, aber keine Türen. Ich öffne Welten, doch bleibe immer an einem Ort. Was bin ich?",
+      "correctAnswer": "Eine Tastatur",
+      "wrongAnswers": ["Ein Klavier", "Ein Schlüsselkasten", "Ein Tresor", "Ein Schlossplan"]
+    },
+    {
+      "id": 18,
+      "question": "Ich kann Berge bewegen, ohne mich zu rühren. Ich kann Kriege beginnen, ohne zu sprechen. Ich kann retten oder zerstören, je nachdem, wie man mich verwendet. Was bin ich?",
+      "correctAnswer": "Eine Idee",
+      "wrongAnswers": ["Geld", "Ein Geheimdienst", "Ein Werkzeug", "Ein Gesetz"]
+    },
+    {
+      "id": 19,
+      "question": "Ich existiere nur zwischen zwei Menschen. Allein bin ich bedeutungslos. Wenn ich breche, bleiben beide zurück. Was bin ich?",
+      "correctAnswer": "Vertrauen",
+      "wrongAnswers": ["Liebe", "Freundschaft", "Stolz", "Ein Vertrag"]
+    },
+    {
+      "id": 20,
+      "question": "Ich bin unsichtbar und doch wiege ich schwer. Ich kann dich nach unten ziehen oder dich antreiben. Manchmal ist mein Gegenteil gefährlicher als ich. Was bin ich?",
+      "correctAnswer": "Verantwortung",
+      "wrongAnswers": ["Schuld", "Angst", "Stolz", "Neid"]
+    },
+    {
+      "id": 21,
+      "question": "Ich werde im Kopf geboren, aber oft mit der Hand begraben. Ich kann Furcht nehmen oder erzeugen. Was bin ich?",
+      "correctAnswer": "Ein Gedanke, der aufgeschrieben wird",
+      "wrongAnswers": ["Ein Geheimnis", "Ein Tagebucheintrag", "Ein Vertrag", "Ein Testament"]
+    },
+    {
+      "id": 22,
+      "question": "Ich habe Anfang und Ende, aber keine Länge. Ich kann alles verbinden oder alles trennen, je nachdem, wo ich gesetzt werde. Was bin ich?",
+      "correctAnswer": "Eine Linie in der Zeit, ein Zeitpunkt",
+      "wrongAnswers": ["Eine Straße", "Ein Grenzzaun", "Ein Blitz", "Ein Laserstrahl"]
+    },
+    {
+      "id": 23,
+      "question": "Ich erzähle dir, wer du warst, noch bevor du dich erinnern kannst. Ich bin geschrieben, aber nie fertig. Was bin ich?",
+      "correctAnswer": "Deine Biografie",
+      "wrongAnswers": ["Dein Stammbaum", "Dein Tagebuch", "Dein Notenzeugnis", "Dein Lebenslauf"]
+    },
+    {
+      "id": 24,
+      "question": "Ich lebe nur in der Abwesenheit von Bewegung. Sobald du versuchst, mich zu halten, bin ich schon vorbei. Was bin ich?",
+      "correctAnswer": "Ruhe",
+      "wrongAnswers": ["Zeit", "Geduld", "Stillstand", "Schlaf"]
+    },
+    {
+      "id": 25,
+      "question": "Ich bestehe aus Fragen und Antworten, doch bin weder Gespräch noch Prüfung. Man kann mich lesen, aber nie ganz zu Ende verstehen. Was bin ich?",
+      "correctAnswer": "Eine Philosophie",
+      "wrongAnswers": ["Eine Biografie", "Ein Lexikon", "Eine Predigt", "Ein Gesetzbuch"]
+    },
+    {
+      "id": 26,
+      "question": "Ich bin gleichzeitig Werkzeug und Waffe, je nach Absicht des Benutzers. Ich kann erhellen oder verdunkeln. Was bin ich?",
+      "correctAnswer": "Wissen",
+      "wrongAnswers": ["Geld", "Technologie", "Sprache", "Macht"]
+    },
+    {
+      "id": 27,
+      "question": "Ich bin da, bevor du aufwachst, und bleibe, wenn du einschläfst. Du kämpfst gegen mich, aber ohne mich könntest du nicht lernen. Was bin ich?",
+      "correctAnswer": "Gewohnheit",
+      "wrongAnswers": ["Stress", "Zeitdruck", "Routinearbeit", "Angst"]
+    },
+    {
+      "id": 28,
+      "question": "Ich kann nie gesehen werden, nur gespürt. Ich werde stärker, je mehr du verlierst, und schwächer, je mehr du gewinnst. Was bin ich?",
+      "correctAnswer": "Sehnsucht",
+      "wrongAnswers": ["Schmerz", "Liebe", "Hunger", "Erinnerung"]
+    },
+    {
+      "id": 29,
+      "question": "Ich bin ein Messer ohne Klinge, das dennoch tief schneiden kann. Ich lasse keine Wunden auf der Haut, aber Narben im Inneren. Was bin ich?",
+      "correctAnswer": "Worte",
+      "wrongAnswers": ["Kälte", "Zeit", "Blicke", "Gerüchte"]
+    },
+    {
+      "id": 30,
+      "question": "Ich verändere jeden Ort, ohne mich selbst zu bewegen. Ich kann dich klein oder groß erscheinen lassen, je nachdem, wo du stehst. Was bin ich?",
+      "correctAnswer": "Perspektive",
+      "wrongAnswers": ["Schatten", "Spiegel", "Licht", "Kamera"]
+    },
+    {
+      "id": 31,
+      "question": "Ich bin die einzige Lüge, an die fast jeder sich erinnern will. Zugleich bin ich eine Wahrheit, die es nie gab. Was bin ich?",
+      "correctAnswer": "Nostalgie",
+      "wrongAnswers": ["Ein Traum", "Ein Märchen", "Eine Ausrede", "Ein Déjà-vu"]
+    },
+    {
+      "id": 32,
+      "question": "Ich bin das Einzige, das wächst, wenn man es teilt, und doch verschwindet, wenn man es behält. Was bin ich?",
+      "correctAnswer": "Ein Geheimnis, das erzählt wird",
+      "wrongAnswers": ["Geld", "Ein Geschenk", "Zeit", "Ein Fehler"]
+    },
+    {
+      "id": 33,
+      "question": "Ich bin der stillste Richter. Ich sehe alles, doch niemand kann sich vor mir verteidigen. Am Ende entscheide ich ohne Worte. Was bin ich?",
+      "correctAnswer": "Das Gewissen",
+      "wrongAnswers": ["Ein Gericht", "Die Geschichte", "Die Öffentlichkeit", "Ein Vertrag"]
+    },
+    {
+      "id": 34,
+      "question": "Ich kann dir gehören, ohne dass du weißt, dass du mich besitzt. Andere erkennen mich manchmal als Erste. Was bin ich?",
+      "correctAnswer": "Ein Vorurteil",
+      "wrongAnswers": ["Ein Talent", "Ein Fehler", "Ein Geheimnis", "Ein Erbe"]
+    },
+    {
+      "id": 35,
+      "question": "Ich bin schwer zu gewinnen und leicht zu verlieren. Einmal zerstört, kehre ich selten unverändert zurück. Was bin ich?",
+      "correctAnswer": "Vertrauen",
+      "wrongAnswers": ["Geld", "Gesundheit", "Zeit", "Ein Haus"]
+    },
+    {
+      "id": 36,
+      "question": "Ich bin weder Anfang noch Ende, und doch liege ich immer dazwischen. Ohne mich wäre vieles chaotisch, mit mir manchmal langweilig. Was bin ich?",
+      "correctAnswer": "Routine",
+      "wrongAnswers": ["Ordnung", "Disziplin", "Arbeit", "Planung"]
+    },
+    {
+      "id": 37,
+      "question": "Ich kann nicht sprechen, aber ich verrate dich oft. Ich bleibe zurück, wenn du dich längst entfernt hast. Was bin ich?",
+      "correctAnswer": "Fingerabdruck oder Spur",
+      "wrongAnswers": ["Schweiß", "Atem", "Schatten", "Geruch"]
+    },
+    {
+      "id": 38,
+      "question": "Ich bin so zerbrechlich wie Glas und doch härter als Stahl, wenn man mich einmal geformt hat. Ich bestimme, was du siehst. Was bin ich?",
+      "correctAnswer": "Deine Meinung",
+      "wrongAnswers": ["Ein Spiegel", "Eine Brille", "Ein Gesetz", "Eine Linse"]
+    },
+    {
+      "id": 39,
+      "question": "Ich bin voller Antworten, aber ohne Fragen nutzlos. Ich bestehe aus Seiten, doch du kannst nicht umblättern. Was bin ich?",
+      "correctAnswer": "Eine Suchmaschine oder Datenbank",
+      "wrongAnswers": ["Ein Roman", "Eine Enzyklopädie", "Ein Notizbuch", "Ein Chatverlauf"]
+    },
+    {
+      "id": 40,
+      "question": "Ich bin niemals derselbe und doch immer identisch. Du kannst zweimal in mich eintauchen, aber nie in das gleiche Wasser. Was bin ich?",
+      "correctAnswer": "Ein Fluss",
+      "wrongAnswers": ["Ein Meer", "Ein Brunnen", "Ein See", "Ein Wasserfall"]
+    },
+    {
+      "id": 41,
+      "question": "Ich kann dir Freiheit schenken oder dich einsperren, und doch bin ich nur ein paar Zeilen. Was bin ich?",
+      "correctAnswer": "Ein Vertrag",
+      "wrongAnswers": ["Ein Tagebuch", "Ein Gesetz", "Ein Gedicht", "Ein Testament"]
+    },
+    {
+      "id": 42,
+      "question": "Ich bin der einzige Ort, an dem gestern, heute und morgen gleichzeitig existieren. Was bin ich?",
+      "correctAnswer": "Die Erinnerung",
+      "wrongAnswers": ["Ein Kalender", "Eine Uhr", "Ein Buch", "Ein Traum"]
+    },
+    {
+      "id": 43,
+      "question": "Ich kann dich leiden lassen, obwohl ich nur im Kopf existiere. Manchmal rette ich dich, manchmal zerstöre ich dich. Was bin ich?",
+      "correctAnswer": "Die Angst",
+      "wrongAnswers": ["Die Liebe", "Der Stolz", "Die Eifersucht", "Der Neid"]
+    },
+    {
+      "id": 44,
+      "question": "Je mehr du von mir weißt, desto weniger sicher bist du dir oft. Doch ohne mich bleibst du blind. Was bin ich?",
+      "correctAnswer": "Wissen",
+      "wrongAnswers": ["Glaube", "Intuition", "Erfahrung", "Meinung"]
+    },
+    {
+      "id": 45,
+      "question": "Ich kann eine Lüge wahr erscheinen lassen und eine Wahrheit zweifelhaft. Ich bin kein Wort, aber begleite jedes. Was bin ich?",
+      "correctAnswer": "Der Tonfall",
+      "wrongAnswers": ["Die Schriftart", "Die Mimik", "Der Dialekt", "Die Lautstärke"]
+    },
+    {
+      "id": 46,
+      "question": "Ich bin überall um dich herum und doch schwer zu beschreiben. Ich kann heilen oder krank machen, je nachdem, wie du mich wahrnimmst. Was bin ich?",
+      "correctAnswer": "Stimmung oder Atmosphäre",
+      "wrongAnswers": ["Wetter", "Licht", "Temperatur", "Geruch"]
+    },
+    {
+      "id": 47,
+      "question": "Du kannst mich nur geben, wenn du mich selbst hast. Je mehr du gibst, desto größer werde ich. Was bin ich?",
+      "correctAnswer": "Respekt",
+      "wrongAnswers": ["Geld", "Zeit", "Macht", "Besitz"]
+    },
+    {
+      "id": 48,
+      "question": "Ich werde gemacht, bevor ich gesehen werde, und gesehen, bevor ich benutzt werde. Wenn ich falsch bin, kann alles schiefgehen. Was bin ich?",
+      "correctAnswer": "Ein Plan",
+      "wrongAnswers": ["Ein Werkzeug", "Ein Vertrag", "Eine Maschine", "Eine Landkarte"]
+    },
+    {
+      "id": 49,
+      "question": "Ich bin eine Frage, die du dir stellst, nachdem alles vorbei ist. Manchmal bin ich der Anfang von Weisheit, manchmal nur von Reue. Was bin ich?",
+      "correctAnswer": "Warum",
+      "wrongAnswers": ["Wie", "Wann", "Wer", "Was"]
+    },
+    {
+      "id": 50,
+      "question": "Ich kann dich durchs Leben tragen, obwohl ich nur ein Satz im Kopf bin. Wenn ich falsch bin, stolperst du immer wieder. Was bin ich?",
+      "correctAnswer": "Eine Überzeugung",
+      "wrongAnswers": ["Ein Zitat", "Ein Gerücht", "Ein Witz", "Ein Motto auf einem Poster"]
+    },
+    {
+      "id": 51,
+      "question": "Ich bin leicht zu sagen, schwer zu beweisen und unmöglich zurückzunehmen. Was bin ich?",
+      "correctAnswer": "Eine Behauptung",
+      "wrongAnswers": ["Ein Versprechen", "Eine Lüge", "Ein Urteil", "Ein Befehl"]
+    },
+    {
+      "id": 52,
+      "question": "Ich stehe immer am Anfang, auch wenn ich am Ende geschrieben werde. Was bin ich?",
+      "correctAnswer": "Die Unterschrift",
+      "wrongAnswers": ["Der Titel", "Das Datum", "Die Anrede", "Die Fußnote"]
+    },
+    {
+      "id": 53,
+      "question": "Ich existiere nur, wenn zwei sich einig sind. Sobald einer nachlässt, löse ich mich auf. Was bin ich?",
+      "correctAnswer": "Ein Kompromiss",
+      "wrongAnswers": ["Ein Streit", "Ein Geheimnis", "Ein Vertrag", "Ein Plan"]
+    },
+    {
+      "id": 54,
+      "question": "Ich kann in Sekunden zerstören, wofür Jahre nötig waren. Ich bin unsichtbar, aber mein Ergebnis sieht man. Was bin ich?",
+      "correctAnswer": "Vertrauensbruch",
+      "wrongAnswers": ["Ein Feuer", "Ein Unfall", "Ein Sturm", "Eine Pleite"]
+    },
+    {
+      "id": 55,
+      "question": "Ich bin immer da, wenn du eine Wahl triffst, aber du erkennst mich selten. Erst später merkst du, dass ich die eigentliche Entscheidung war. Was bin ich?",
+      "correctAnswer": "Die Motivation",
+      "wrongAnswers": ["Der Zufall", "Das Risiko", "Die Hoffnung", "Der Druck"]
+    },
+    {
+      "id": 56,
+      "question": "Ich bin kein Ort und kein Gegenstand, doch du kannst in mir stecken bleiben. Manchmal brauchst du eine neue Perspektive, um aus mir herauszukommen. Was bin ich?",
+      "correctAnswer": "Eine Sackgasse im Denken",
+      "wrongAnswers": ["Ein Albtraum", "Eine Depression", "Ein Labyrinth", "Ein Irrgarten im Wald"]
+    },
+    {
+      "id": 57,
+      "question": "Ich kann dich schützen, indem ich dich begrenze. Ich kann dich fesseln, wenn du mich nie hinterfragst. Was bin ich?",
+      "correctAnswer": "Eine Regel",
+      "wrongAnswers": ["Eine Tür", "Ein Gürtel", "Ein Geländers", "Ein Helm"]
+    },
+    {
+      "id": 58,
+      "question": "Ich werde lauter, je mehr man mich unterdrückt. Ich werde klarer, je stiller es um mich herum wird. Was bin ich?",
+      "correctAnswer": "Das eigene Gewissen oder die innere Stimme",
+      "wrongAnswers": ["Der Herzschlag", "Der Atem", "Der Lärm der Stadt", "Der Tinnitus"]
+    },
+    {
+      "id": 59,
+      "question": "Ich bin ein Bild, das du dir von dir selbst machst, und doch ist es oft das Bild anderer. Was bin ich?",
+      "correctAnswer": "Selbstbild",
+      "wrongAnswers": ["Spiegelbild", "Avatar", "Profilfoto", "Unterschrift"]
+    },
+    {
+      "id": 60,
+      "question": "Ich bin unsichtbar, bis du mich verletzt. Dann färbe ich alles, was du tust. Was bin ich?",
+      "correctAnswer": "Stolz",
+      "wrongAnswers": ["Neid", "Schuld", "Trauer", "Scham"]
+    },
+    {
+      "id": 61,
+      "question": "Ich beginne als Schutz und ende oft als Gefängnis. Am Anfang geben dir andere mich, später baust du mich selbst. Was bin ich?",
+      "correctAnswer": "Eine Grenze",
+      "wrongAnswers": ["Ein Haus", "Eine Mauer", "Ein Passwort", "Ein Schloss"]
+    },
+    {
+      "id": 62,
+      "question": "Ich mache dich blind für alles andere, wenn du mich zu lange ansiehst. Ich kann aus einem Sandkorn einen Berg machen. Was bin ich?",
+      "correctAnswer": "Fixierung",
+      "wrongAnswers": ["Liebe", "Arbeit", "Leidenschaft", "Bildschirmlicht"]
+    },
+    {
+      "id": 63,
+      "question": "Ich kann eine Lüge wahr wirken lassen, aber auch eine Wahrheit schwach. Du findest mich zwischen den Zeilen. Was bin ich?",
+      "correctAnswer": "Interpretation",
+      "wrongAnswers": ["Übersetzung", "Ironie", "Metapher", "Fehler"]
+    },
+    {
+      "id": 64,
+      "question": "Ich bin ein Geschenk, das du dir selbst verweigerst, wenn du glaubst, es nicht zu verdienen. Was bin ich?",
+      "correctAnswer": "Vergebung für dich selbst",
+      "wrongAnswers": ["Urlaub", "Geld", "Anerkennung", "Zeit"]
+    },
+    {
+      "id": 65,
+      "question": "Ich kann dich verbinden, ohne dass du dich bewegst. Ich kann dich einsam machen, obwohl du mit vielen sprichst. Was bin ich?",
+      "correctAnswer": "Soziale Medien",
+      "wrongAnswers": ["Ein Buch", "Ein Telefonkontakt", "Ein Brief", "Eine Postkarte"]
+    },
+    {
+      "id": 66,
+      "question": "Ich bin immer da, wenn du scheiterst, aber nie schuld daran. Manche nennen mich unfair, andere nennen mich Lehrer. Was bin ich?",
+      "correctAnswer": "Erfahrung",
+      "wrongAnswers": ["Glück", "Pech", "Schicksal", "Zufall"]
+    },
+    {
+      "id": 67,
+      "question": "Ich gehöre jedem und niemandem. Je lauter ich werde, desto weniger hört man den Einzelnen. Was bin ich?",
+      "correctAnswer": "Die Masse",
+      "wrongAnswers": ["Das Internet", "Die Familie", "Das Publikum", "Die Regierung"]
+    },
+    {
+      "id": 68,
+      "question": "Ich kann dir helfen, weniger zu besitzen und dennoch mehr zu haben. Ich bin keine Diät, aber manchmal verzichtest du durch mich. Was bin ich?",
+      "correctAnswer": "Prioritäten setzen",
+      "wrongAnswers": ["Sparen", "Minimalismus als Trend", "Fasten", "Aufräumen"]
+    },
+    {
+      "id": 69,
+      "question": "Ich bin ein Wort, das jeder kennt, aber kaum jemand genau definieren kann. Ich verändere mich mit Kultur, Zeit und Person. Was bin ich?",
+      "correctAnswer": "Glück",
+      "wrongAnswers": ["Erfolg", "Liebe", "Freiheit", "Gesundheit"]
+    },
+    {
+      "id": 70,
+      "question": "Ich kann dich retten, wenn du fällst, oder dich festhalten, wenn du weitergehen solltest. Ich bin unsichtbar und oft bequem. Was bin ich?",
+      "correctAnswer": "Die Komfortzone",
+      "wrongAnswers": ["Ein Sicherheitsgurt", "Ein Netz", "Ein Freund", "Ein Vertrag"]
+    },
+    {
+      "id": 71,
+      "question": "Ich bin das Einzige, das du wirklich verlieren kannst, obwohl du es nie besitzt. Was bin ich?",
+      "correctAnswer": "Zeit",
+      "wrongAnswers": ["Geld", "Gesundheit", "Arbeit", "Beziehungen"]
+    },
+    {
+      "id": 72,
+      "question": "Ich bin immer ehrlich und doch oft falsch. Ich zeige dir nicht die Welt, wie sie ist, sondern wie du bist. Was bin ich?",
+      "correctAnswer": "Deine Wahrnehmung",
+      "wrongAnswers": ["Ein Spiegel", "Ein Foto", "Ein Tagebuch", "Eine Statistik"]
+    },
+    {
+      "id": 73,
+      "question": "Ich bin ein Ort, den du nie erreichst, obwohl du ihn ständig anpeilst. Ich motiviere dich und enttäusche dich zugleich. Was bin ich?",
+      "correctAnswer": "Das Ideal",
+      "wrongAnswers": ["Der Ruhestand", "Das Zielgewicht", "Der Traumberuf", "Das Zuhause"]
+    },
+    {
+      "id": 74,
+      "question": "Ich werde stärker, je mehr du mich verleugnest. Erst wenn du mich ansiehst, verliere ich meine Macht. Was bin ich?",
+      "correctAnswer": "Ein Problem",
+      "wrongAnswers": ["Ein Feind", "Ein Geheimnis", "Ein Laster", "Eine Sucht"]
+    },
+    {
+      "id": 75,
+      "question": "Ich bin eine Geschichte, die du dir über dich selbst erzählst. Manchmal bin ich die größte Hürde vor dir. Was bin ich?",
+      "correctAnswer": "Dein Selbstbild",
+      "wrongAnswers": ["Deine Vergangenheit", "Deine Familie", "Dein Umfeld", "Dein Beruf"]
+    },
+    {
+      "id": 76,
+      "question": "Ich kann dich reich fühlen lassen, ohne dass sich dein Konto ändert. Ich kann dich arm fühlen lassen, obwohl du alles hast. Was bin ich?",
+      "correctAnswer": "Vergleich mit anderen",
+      "wrongAnswers": ["Inflation", "Steuern", "Schulden", "Sparen"]
+    },
+    {
+      "id": 77,
+      "question": "Ich bin unsichtbar und doch besser zu riechen als zu sehen. Ich verfliegt schnell, aber der Eindruck bleibt. Was bin ich?",
+      "correctAnswer": "Der erste Eindruck",
+      "wrongAnswers": ["Parfum", "Rauch", "Kaffeeduft", "Sommerregen"]
+    },
+    {
+      "id": 78,
+      "question": "Ich komme ohne Einladung, bleibe ohne Miete zu zahlen und gehe oft erst, wenn alles zerstört ist. Was bin ich?",
+      "correctAnswer": "Eine Sucht",
+      "wrongAnswers": ["Ein unerwünschter Besuch", "Schimmel", "Ein Unfall", "Ein Sturm"]
+    },
+    {
+      "id": 79,
+      "question": "Ich kann dir Freiheit geben, wenn du mich akzeptierst, und dich ersticken, wenn du mich ignorierst. Was bin ich?",
+      "correctAnswer": "Grenzen erkennen",
+      "wrongAnswers": ["Regeln", "Gesetze", "Verträge", "Pflichten"]
+    },
+    {
+      "id": 80,
+      "question": "Ich bin ein unsichtbarer Spiegel, denn in mir erkennst du oft, wer du wirklich bist, wenn niemand zusieht. Was bin ich?",
+      "correctAnswer": "Alleinsein",
+      "wrongAnswers": ["Meditation", "Schlaf", "Traurigkeit", "Einsamkeit im Alter"]
+    },
+    {
+      "id": 81,
+      "question": "Ich bin stärker als jede Ausrede und schwächer als jeder Aufschub. Ich entscheide, ob du beginnst. Was bin ich?",
+      "correctAnswer": "Entschlusskraft",
+      "wrongAnswers": ["Motivation", "Planung", "Disziplin", "Druck"]
+    },
+    {
+      "id": 82,
+      "question": "Ich kann dich führen, ohne dass du meine Sprache sprichst. Ich brauche nur deine Schritte. Was bin ich?",
+      "correctAnswer": "Ein Weg",
+      "wrongAnswers": ["Ein Navi", "Ein Führer", "Ein Plan", "Ein Fahrplan"]
+    },
+    {
+      "id": 83,
+      "question": "Ich kann dich retten, indem ich dich scheitern lasse. Ich kann dich zerstören, wenn du mich nie zulässt. Was bin ich?",
+      "correctAnswer": "Fehler machen",
+      "wrongAnswers": ["Kritik", "Ehrgeiz", "Ungeduld", "Strenge Erziehung"]
+    },
+    {
+      "id": 84,
+      "question": "Ich bin ein Gefängnis, das du nicht sehen kannst. Der Schlüssel steckt von innen. Was bin ich?",
+      "correctAnswer": "Die eigene Angst",
+      "wrongAnswers": ["Ein Vertrag", "Ein Geheimnis", "Eine Schuld", "Eine Beziehung"]
+    },
+    {
+      "id": 85,
+      "question": "Ich kann dich verfolgen, ohne dir jemals gefolgt zu sein. Ich existiere nur in deinem Kopf, aber manchmal laufe ich schneller als du. Was bin ich?",
+      "correctAnswer": "Die Vergangenheit",
+      "wrongAnswers": ["Ein Stalker", "Ein Schatten", "Ein schlechtes Gewissen", "Ein Gerücht"]
+    },
+    {
+      "id": 86,
+      "question": "Ich bin ein leeres Blatt, das sich von selbst füllt, wenn du lebst. Du kannst nicht verhindern, dass ich voll werde, nur mitentscheiden, was darin steht. Was bin ich?",
+      "correctAnswer": "Deine Lebensgeschichte",
+      "wrongAnswers": ["Ein Tagebuch", "Ein Vertrag", "Ein Kalender", "Ein Zeugnis"]
+    },
+    {
+      "id": 87,
+      "question": "Ich bin ein Dieb, der nichts berührt. Ich nehme dir das, was du später am meisten brauchst. Was bin ich?",
+      "correctAnswer": "Aufschieben",
+      "wrongAnswers": ["Steuern", "Arbeit", "Schlaflosigkeit", "Stress"]
+    },
+    {
+      "id": 88,
+      "question": "Ich bin ein Spiegel, der keine Bilder zeigt, sondern Reaktionen. Du erkennst mich an der Antwort auf dein Verhalten. Was bin ich?",
+      "correctAnswer": "Resonanz mit anderen Menschen",
+      "wrongAnswers": ["Feedbackbogen", "Applaus", "Kritik", "Ein Test"]
+    },
+    {
+      "id": 89,
+      "question": "Ich beginne als Frage und ende als Richtung. Manchmal bin ich eine Zahl, manchmal ein Gefühl. Was bin ich?",
+      "correctAnswer": "Eine Entscheidung",
+      "wrongAnswers": ["Eine Adresse", "Eine Meinung", "Ein Rätsel", "Eine Einladung"]
+    },
+    {
+      "id": 90,
+      "question": "Ich kann stärker sein als Fakten und lauter als Beweise. Ich brauche nur genug Menschen, die mir glauben. Was bin ich?",
+      "correctAnswer": "Ein Narrativ oder eine Erzählung",
+      "wrongAnswers": ["Ein Gesetz", "Eine Statistik", "Ein Dokument", "Ein Vertrag"]
+    },
+    {
+      "id": 91,
+      "question": "Ich trinke dein Geld und spucke Träume aus. Manche werden wahr, viele bleiben nur Vision. Was bin ich?",
+      "correctAnswer": "Eine Investition",
+      "wrongAnswers": ["Eine Spende", "Ein Kredit", "Eine Versicherung", "Ein Glücksspiel"]
+    },
+    {
+      "id": 92,
+      "question": "Ich bin eine Lüge, die du dir so oft erzählst, bis sie bequemer ist als die Wahrheit. Was bin ich?",
+      "correctAnswer": "Selbsttäuschung",
+      "wrongAnswers": ["Höflichkeit", "Ironie", "Ein Kompliment", "Ein Missverständnis"]
+    },
+    {
+      "id": 93,
+      "question": "Ich kann dich reich machen, ohne etwas zu besitzen, und arm machen, obwohl du alles hast. Ich bin keine Bank. Was bin ich?",
+      "correctAnswer": "Dankbarkeit",
+      "wrongAnswers": ["Sparen", "Erben", "Arbeiten", "Risiko"]
+    },
+    {
+      "id": 94,
+      "question": "Ich bin der längste Weg zwischen zwei Punkten, den du oft trotzdem wählst. Was bin ich?",
+      "correctAnswer": "Der Umweg aus Bequemlichkeit oder Angst",
+      "wrongAnswers": ["Eine Serpentinenstraße", "Ein Bergpfad", "Eine Reise mit Zwischenstopps", "Eine Rundreise"]
+    },
+    {
+      "id": 95,
+      "question": "Ich bin ein Spiegel, der in die Zukunft zeigt, aber aus der Vergangenheit gebaut ist. Was bin ich?",
+      "correctAnswer": "Erfahrung, aus der du Vorhersagen machst",
+      "wrongAnswers": ["Eine Statistik", "Ein Horoskop", "Eine Prophezeiung", "Ein Wetterbericht"]
+    },
+    {
+      "id": 96,
+      "question": "Ich bin ein Lehrer, den du niemals gewählt hast. Ich unterrichte dich mit Verlusten. Was bin ich?",
+      "correctAnswer": "Scheitern",
+      "wrongAnswers": ["Ein Kollege", "Ein Vorgesetzter", "Ein Elternteil", "Eine Schulnote"]
+    },
+    {
+      "id": 97,
+      "question": "Ich bin weder gut noch schlecht, doch du bewertest alles mit mir. Ich kann weit und eng sein, je nachdem, wie du aufgewachsen bist. Was bin ich?",
+      "correctAnswer": "Dein Maßstab",
+      "wrongAnswers": ["Ein Lineal", "Eine Norm", "Ein Gesetzbuch", "Ein Vorbild"]
+    },
+    {
+      "id": 98,
+      "question": "Ich kann dich vor Schmerz schützen, indem ich dich betäube. Doch irgendwann musst du mich ausschalten, sonst spürst du gar nichts mehr. Was bin ich?",
+      "correctAnswer": "Verdrängung",
+      "wrongAnswers": ["Alkohol", "Schlaf", "Ablenkung", "Medikamente"]
+    },
+    {
+      "id": 99,
+      "question": "Ich bin eine Tür, die sich nur nach innen öffnen lässt. Wer mich öffnet, lässt gleichzeitig andere hinein. Was bin ich?",
+      "correctAnswer": "Verletzlichkeit",
+      "wrongAnswers": ["Ein Tagebuch", "Ein Geheimnis", "Ein Safe", "Ein Passwort"]
+    },
+    {
+      "id": 100,
+      "question": "Ich bin der Punkt, an dem du erkennst, dass du nicht mehr derselbe bist, obwohl sich nichts um dich herum verändert hat. Was bin ich?",
+      "correctAnswer": "Ein innerer Wendepunkt oder Erkenntnis",
+      "wrongAnswers": ["Ein Umzug", "Ein Jobwechsel", "Ein Streit", "Ein Geburtstag"]
+    }
+  ]
+}

@@ -1,0 +1,304 @@
+{
+  "riddles": [
+    {
+      "id": 1,
+      "question": "Ich habe vier Beine, aber ich kann nicht laufen. Auf mir sitzt du beim Essen. Was bin ich?",
+      "correctAnswer": "Ein Stuhl",
+      "wrongAnswers": ["Ein Hund", "Ein Bett"]
+    },
+    {
+      "id": 2,
+      "question": "Nachts bin ich hell, am Tag kannst du mich kaum sehen. Manchmal bin ich rund, manchmal nicht. Wer bin ich?",
+      "correctAnswer": "Der Mond",
+      "wrongAnswers": ["Die Sonne", "Eine Lampe"]
+    },
+    {
+      "id": 3,
+      "question": "Ich habe Zeiger, aber keine Hände. Ich mache Ticktack. Was bin ich?",
+      "correctAnswer": "Eine Uhr",
+      "wrongAnswers": ["Ein Radio", "Ein Telefon"]
+    },
+    {
+      "id": 4,
+      "question": "Ich bin nass und blau, Fische leben in mir. Was bin ich?",
+      "correctAnswer": "Das Meer",
+      "wrongAnswers": ["Der Himmel", "Der Baum"]
+    },
+    {
+      "id": 5,
+      "question": "Ich habe Flügel und Federn und kann oft fliegen. Was bin ich?",
+      "correctAnswer": "Ein Vogel",
+      "wrongAnswers": ["Ein Fisch", "Ein Wurm"]
+    },
+    {
+      "id": 6,
+      "question": "Ich habe Blätter, aber ich bin kein Buch. Ich wachse im Wald. Was bin ich?",
+      "correctAnswer": "Ein Baum",
+      "wrongAnswers": ["Ein Tisch", "Ein Hut"]
+    },
+    {
+      "id": 7,
+      "question": "Ich komme mit Regen, danach siehst du viele Farben am Himmel. Was bin ich?",
+      "correctAnswer": "Ein Regenbogen",
+      "wrongAnswers": ["Eine Wolke", "Ein Drache"]
+    },
+    {
+      "id": 8,
+      "question": "Ich bin klein und rund, du wirfst mich ins Tor. Mit mir spielt man Fußball. Was bin ich?",
+      "correctAnswer": "Ein Ball",
+      "wrongAnswers": ["Ein Würfel", "Ein Stein"]
+    },
+    {
+      "id": 9,
+      "question": "Ich bin heiß, ich brenne und ich leuchte. Du brauchst mich für eine Kerze. Was bin ich?",
+      "correctAnswer": "Das Feuer",
+      "wrongAnswers": ["Das Wasser", "Der Sand"]
+    },
+    {
+      "id": 10,
+      "question": "Ich bin weich und warm. Nachts legst du deinen Kopf auf mich. Was bin ich?",
+      "correctAnswer": "Ein Kissen",
+      "wrongAnswers": ["Ein Teller", "Ein Schuh"]
+    },
+    {
+      "id": 11,
+      "question": "Morgens wecke ich dich mit einem lauten Kikeriki. Wer bin ich?",
+      "correctAnswer": "Ein Hahn",
+      "wrongAnswers": ["Eine Katze", "Ein Elefant"]
+    },
+    {
+      "id": 12,
+      "question": "Ich habe lange Ohren und mag Karotten. Wer bin ich?",
+      "correctAnswer": "Ein Hase",
+      "wrongAnswers": ["Ein Bär", "Ein Frosch"]
+    },
+    {
+      "id": 13,
+      "question": "Ich bin gelb und am Himmel. Ohne mich wäre es dunkel und kalt. Was bin ich?",
+      "correctAnswer": "Die Sonne",
+      "wrongAnswers": ["Der Stern", "Die Laterne"]
+    },
+    {
+      "id": 14,
+      "question": "Ich habe Räder und ein Lenkrad. Deine Eltern fahren mit mir zur Arbeit. Was bin ich?",
+      "correctAnswer": "Ein Auto",
+      "wrongAnswers": ["Ein Boot", "Ein Rucksack"]
+    },
+    {
+      "id": 15,
+      "question": "Ich bin bunt, du bläst Luft hinein und dann fliege ich davon. Was bin ich?",
+      "correctAnswer": "Ein Luftballon",
+      "wrongAnswers": ["Ein Stein", "Ein Buch"]
+    },
+    {
+      "id": 16,
+      "question": "Ich habe ein Schloss und viele Seiten. Du kannst Geschichten in mir lesen. Was bin ich?",
+      "correctAnswer": "Ein Buch",
+      "wrongAnswers": ["Eine Lampe", "Eine Schere"]
+    },
+    {
+      "id": 17,
+      "question": "Ich bin lang, schlank und sehr leise. Ich schlängle mich über den Boden. Wer bin ich?",
+      "correctAnswer": "Eine Schlange",
+      "wrongAnswers": ["Ein Tiger", "Eine Maus"]
+    },
+    {
+      "id": 18,
+      "question": "Ich bin weiß und falle leise vom Himmel. Kinder bauen aus mir einen Mann. Was bin ich?",
+      "correctAnswer": "Der Schnee",
+      "wrongAnswers": ["Der Regen", "Der Wind"]
+    },
+    {
+      "id": 19,
+      "question": "Ich habe ein Gesicht, aber keinen Kopf. Ich hänge an der Wand und zeige die Zeit. Was bin ich?",
+      "correctAnswer": "Eine Wanduhr",
+      "wrongAnswers": ["Ein Spiegel", "Ein Bild"]
+    },
+    {
+      "id": 20,
+      "question": "Ich habe Zähne, aber keinen Mund. Du benutzt mich jeden Morgen im Bad. Was bin ich?",
+      "correctAnswer": "Eine Zahnbürste",
+      "wrongAnswers": ["Ein Kamm", "Ein Handtuch"]
+    },
+    {
+      "id": 21,
+      "question": "Tagsüber schlafe ich, nachts fliege ich. Ich rufe schuhu. Wer bin ich?",
+      "correctAnswer": "Eine Eule",
+      "wrongAnswers": ["Eine Ente", "Ein Hahn"]
+    },
+    {
+      "id": 22,
+      "question": "Ich bin klein, brumme laut und mag Blumen. Wer bin ich?",
+      "correctAnswer": "Eine Biene",
+      "wrongAnswers": ["Ein Pferd", "Ein Pinguin"]
+    },
+    {
+      "id": 23,
+      "question": "Ich wohne im Wasser, habe Flossen und schwimme schnell. Was bin ich?",
+      "correctAnswer": "Ein Fisch",
+      "wrongAnswers": ["Ein Hund", "Ein Vogel"]
+    },
+    {
+      "id": 24,
+      "question": "Ich bin grau, sehr groß und habe einen langen Rüssel. Wer bin ich?",
+      "correctAnswer": "Ein Elefant",
+      "wrongAnswers": ["Ein Hase", "Ein Fuchs"]
+    },
+    {
+      "id": 25,
+      "question": "Ich bin rund und leuchte nachts am Himmel. Manchmal siehst du nur eine schmale Sichel von mir. Wer bin ich?",
+      "correctAnswer": "Der Mond",
+      "wrongAnswers": ["Die Sonne", "Ein Ball"]
+    },
+    {
+      "id": 26,
+      "question": "Ich wohne in deinem Zimmer. In mir schlafen deine Spielsachen. Was bin ich?",
+      "correctAnswer": "Eine Kiste",
+      "wrongAnswers": ["Ein Teller", "Ein Teppich"]
+    },
+    {
+      "id": 27,
+      "question": "Ich bin bunt, liege im Federmäppchen und male Linien und Formen. Was bin ich?",
+      "correctAnswer": "Ein Buntstift",
+      "wrongAnswers": ["Ein Radiergummi", "Ein Lineal"]
+    },
+    {
+      "id": 28,
+      "question": "Ich habe eine Klingel, zwei Räder und Pedale. Kinder fahren mit mir zum Spielplatz. Was bin ich?",
+      "correctAnswer": "Ein Fahrrad",
+      "wrongAnswers": ["Ein Bus", "Ein Skateboard"]
+    },
+    {
+      "id": 29,
+      "question": "Ich bin weich und bunt und liege auf dem Boden. Du kannst drauf sitzen oder spielen. Was bin ich?",
+      "correctAnswer": "Ein Teppich",
+      "wrongAnswers": ["Ein Fenster", "Eine Tasse"]
+    },
+    {
+      "id": 30,
+      "question": "Ich bin kalt und süß. Im Sommer schleckst du mich gern. Was bin ich?",
+      "correctAnswer": "Ein Eis",
+      "wrongAnswers": ["Ein Apfel", "Eine Suppe"]
+    },
+    {
+      "id": 31,
+      "question": "Ich komme aus der Steckdose und mache das Zimmer hell. Was bin ich?",
+      "correctAnswer": "Eine Lampe",
+      "wrongAnswers": ["Ein Kissen", "Ein Radio"]
+    },
+    {
+      "id": 32,
+      "question": "Ich habe Knöpfe und manchmal eine Antenne. Ich spiele Musik und Stimmen. Was bin ich?",
+      "correctAnswer": "Ein Radio",
+      "wrongAnswers": ["Ein Teller", "Ein Fahrrad"]
+    },
+    {
+      "id": 33,
+      "question": "Ich bin bunt und du klebst mich auf Papier. Manchmal haben Kinder ganze Hefte mit mir. Was bin ich?",
+      "correctAnswer": "Ein Sticker",
+      "wrongAnswers": ["Ein Radiergummi", "Ein Luftballon"]
+    },
+    {
+      "id": 34,
+      "question": "Ich bin eine Frucht, außen gelb, innen weich und süß. Du schälst mich vor dem Essen. Was bin ich?",
+      "correctAnswer": "Eine Banane",
+      "wrongAnswers": ["Eine Tomate", "Eine Karotte"]
+    },
+    {
+      "id": 35,
+      "question": "Ich bin ein Tier mit Fell und Schnurrhaaren. Ich sage miau. Wer bin ich?",
+      "correctAnswer": "Eine Katze",
+      "wrongAnswers": ["Ein Hund", "Ein Hahn"]
+    },
+    {
+      "id": 36,
+      "question": "Ich bin ein Tier mit Fell und wedelndem Schwanz. Ich belle oft. Wer bin ich?",
+      "correctAnswer": "Ein Hund",
+      "wrongAnswers": ["Ein Frosch", "Ein Igel"]
+    },
+    {
+      "id": 37,
+      "question": "Ich bin klein und grün, springe gern und wohne am Wasser. Wer bin ich?",
+      "correctAnswer": "Ein Frosch",
+      "wrongAnswers": ["Ein Vogel", "Eine Maus"]
+    },
+    {
+      "id": 38,
+      "question": "Ich liege auf dem Tisch. Auf mir stehen Teller und Gläser beim Essen. Was bin ich?",
+      "correctAnswer": "Eine Tischdecke",
+      "wrongAnswers": ["Ein Buch", "Ein Stuhl"]
+    },
+    {
+      "id": 39,
+      "question": "Ich bin durchsichtig und du schaust durch mich nach draußen. Was bin ich?",
+      "correctAnswer": "Ein Fenster",
+      "wrongAnswers": ["Eine Tür", "Ein Teppich"]
+    },
+    {
+      "id": 40,
+      "question": "Ich bin ein Kleidungsstück für den Kopf. Im Winter halte ich dich warm. Was bin ich?",
+      "correctAnswer": "Eine Mütze",
+      "wrongAnswers": ["Ein Schuh", "Ein Schal"]
+    },
+    {
+      "id": 41,
+      "question": "Ich liege im Federmäppchen. Mit mir machst du Fehler weg. Was bin ich?",
+      "correctAnswer": "Ein Radiergummi",
+      "wrongAnswers": ["Ein Stift", "Ein Lineal"]
+    },
+    {
+      "id": 42,
+      "question": "Ich bin lang und gerade. Ich helfe dir, gerade Linien zu zeichnen. Was bin ich?",
+      "correctAnswer": "Ein Lineal",
+      "wrongAnswers": ["Ein Pinsel", "Ein Würfel"]
+    },
+    {
+      "id": 43,
+      "question": "Ich hänge im Schrank. Du ziehst mich an, wenn es draußen kalt ist. Was bin ich?",
+      "correctAnswer": "Eine Jacke",
+      "wrongAnswers": ["Eine Socke", "Eine Hose"]
+    },
+    {
+      "id": 44,
+      "question": "Ich bin klein und rund und passe in deine Hand. Mit mir kannst du das Licht an- und ausschalten. Was bin ich?",
+      "correctAnswer": "Ein Lichtschalter",
+      "wrongAnswers": ["Ein Stein", "Ein Löffel"]
+    },
+    {
+      "id": 45,
+      "question": "Ich habe viele Zacken und stehe auf dem Berg. In der Nacht leuchte ich am Himmel. Was bin ich?",
+      "correctAnswer": "Ein Stern",
+      "wrongAnswers": ["Eine Wolke", "Ein Baum"]
+    },
+    {
+      "id": 46,
+      "question": "Ich bin ein Tier auf der Wiese. Ich gebe Milch und sage muh. Wer bin ich?",
+      "correctAnswer": "Eine Kuh",
+      "wrongAnswers": ["Ein Schaf", "Ein Hund"]
+    },
+    {
+      "id": 47,
+      "question": "Ich bin ein Möbelstück mit vier Beinen. Du schläfst nachts auf mir. Was bin ich?",
+      "correctAnswer": "Ein Bett",
+      "wrongAnswers": ["Ein Schrank", "Ein Stuhl"]
+    },
+    {
+      "id": 48,
+      "question": "Ich bin ein Tier, trage ein Haus auf meinem Rücken und krieche sehr langsam. Wer bin ich?",
+      "correctAnswer": "Eine Schnecke",
+      "wrongAnswers": ["Ein Pferd", "Eine Ente"]
+    },
+    {
+      "id": 49,
+      "question": "Ich bin bunt und du kannst mich an den Himmel malen. Ich komme auch nach Regen. Was bin ich?",
+      "correctAnswer": "Ein Regenbogen",
+      "wrongAnswers": ["Ein Flugzeug", "Ein Baum"]
+    },
+    {
+      "id": 50,
+      "question": "Ich bin weich, aus Stoff und oft dein bester Freund zum Einschlafen. Was bin ich?",
+      "correctAnswer": "Ein Kuscheltier",
+      "wrongAnswers": ["Ein Teller", "Ein Ball"]
+    }
+  ]
+}

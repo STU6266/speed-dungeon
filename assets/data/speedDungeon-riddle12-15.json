@@ -1,0 +1,304 @@
+{
+  "riddles": [
+    {
+      "id": 1,
+      "question": "Ich habe keinen Körper und kein Gesicht, aber ich begleite dich dein ganzes Leben. Die Leute fragen oft: Wie alt bist du? Was bin ich?",
+      "correctAnswer": "Dein Alter",
+      "wrongAnswers": ["Deine Adresse", "Dein Spitzname", "Dein Haustier", "Deine Lieblingsfarbe"]
+    },
+    {
+      "id": 2,
+      "question": "Ich kann durch Wände gehen, ohne eine Tür zu benutzen. Manchmal bin ich laut, obwohl ich keinen Mund habe. Was bin ich?",
+      "correctAnswer": "Ein Echo",
+      "wrongAnswers": ["Ein Geist", "Ein Zug", "Ein Ventilator", "Ein Schatten"]
+    },
+    {
+      "id": 3,
+      "question": "Ich bin da, bevor du sprichst, und bleibe oft, nachdem du fertig bist. Wenn ich breche, wird es laut. Was bin ich?",
+      "correctAnswer": "Die Stille",
+      "wrongAnswers": ["Ein Glas", "Ein Versprechen", "Ein Spiegel", "Ein Bleistift"]
+    },
+    {
+      "id": 4,
+      "question": "Ich renne immer vorwärts, aber habe keine Beine. Ich kann nicht angehalten werden, nur gemessen. Was bin ich?",
+      "correctAnswer": "Die Zeit",
+      "wrongAnswers": ["Der Wind", "Ein Fluss", "Ein Marathonläufer", "Ein Auto"]
+    },
+    {
+      "id": 5,
+      "question": "Je mehr man von mir teilt, desto mehr hat man von mir. Ich werde größer, wenn ich weitergegeben werde. Was bin ich?",
+      "correctAnswer": "Wissen",
+      "wrongAnswers": ["Geld", "Kuchen", "Wasser", "Kleidung"]
+    },
+    {
+      "id": 6,
+      "question": "Ich zeige dir die Welt, kann aber selbst nicht reisen. Ich bin flach, aber voller Berge, Meere und Städte. Was bin ich?",
+      "correctAnswer": "Eine Landkarte",
+      "wrongAnswers": ["Ein Tagebuch", "Ein Globus", "Ein Bildschirm", "Ein Fenster"]
+    },
+    {
+      "id": 7,
+      "question": "Ich gehöre dir, aber andere benutzen mich öfter als du. Sie sagen ihn laut, du eher selten. Was bin ich?",
+      "correctAnswer": "Dein Name",
+      "wrongAnswers": ["Dein Passwort", "Dein Schlüssel", "Dein Zimmer", "Dein Geburtstag"]
+    },
+    {
+      "id": 8,
+      "question": "Ich beginne mit einer Frage und ende mit einer Lösung. Viele Menschen mögen mich, weil ich knifflig bin. Was bin ich?",
+      "correctAnswer": "Ein Rätsel",
+      "wrongAnswers": ["Ein Roman", "Eine Prüfung", "Ein Tagebuch", "Ein Rezept"]
+    },
+    {
+      "id": 9,
+      "question": "Ich habe viele Buchstaben, aber ich bin kein Brief. Manche tippen mich jeden Tag, um Nachrichten zu schreiben. Was bin ich?",
+      "correctAnswer": "Eine Tastatur",
+      "wrongAnswers": ["Ein Wörterbuch", "Eine Postkarte", "Ein Kalender", "Eine Fernbedienung"]
+    },
+    {
+      "id": 10,
+      "question": "Je mehr du von mir nimmst, desto länger werde ich. Man kann mir folgen, auch wenn niemand zu sehen ist. Was bin ich?",
+      "correctAnswer": "Spuren oder Fußabdrücke",
+      "wrongAnswers": ["Ein Seil", "Ein Tunnel", "Ein Schatten", "Ein Zaun"]
+    },
+    {
+      "id": 11,
+      "question": "Ich kann etwas sagen, ohne ein Wort zu sprechen. Ich stehe am Ende eines Satzes, wenn du dir unsicher bist. Was bin ich?",
+      "correctAnswer": "Ein Fragezeichen",
+      "wrongAnswers": ["Ein Punkt", "Ein Komma", "Ein Ausrufezeichen", "Ein Doppelpunkt"]
+    },
+    {
+      "id": 12,
+      "question": "Ich habe keine Augen, doch ich kann dich spiegeln. Wenn du mich berührst, verschwimme ich. Was bin ich?",
+      "correctAnswer": "Dein Spiegelbild in Wasser",
+      "wrongAnswers": ["Ein Foto von dir", "Ein Schatten", "Ein Fenster", "Ein Gemälde"]
+    },
+    {
+      "id": 13,
+      "question": "Ich fresse Wörter und Zeilen, aber ich werde dadurch kleiner. Wenn du mich zu oft benutzt, kann man nichts mehr lesen. Was bin ich?",
+      "correctAnswer": "Ein Radiergummi",
+      "wrongAnswers": ["Ein Bleistift", "Ein Lineal", "Ein Klebestift", "Ein Textmarker"]
+    },
+    {
+      "id": 14,
+      "question": "Ich habe Kapitel, aber keine Türen. In mir leben viele Menschen, die nie wirklich da sind. Was bin ich?",
+      "correctAnswer": "Ein Roman",
+      "wrongAnswers": ["Eine Serie", "Ein Schulheft", "Eine Zeitung", "Ein Kalender"]
+    },
+    {
+      "id": 15,
+      "question": "Ich habe Augen, aber ich sehe nichts. Ich hab Kanten, aber keine Hände. Ich liege auf dem Tisch und beobachte das Spiel. Was bin ich?",
+      "correctAnswer": "Ein Würfel",
+      "wrongAnswers": ["Ein Telefon", "Eine Fernbedienung", "Ein Radiergummi", "Ein Kopfkissen"]
+    },
+    {
+      "id": 16,
+      "question": "Ich kann dein Geheimnis schützen, aber nur, wenn du mich nicht verrätst. Viele Websites verlangen mich. Was bin ich?",
+      "correctAnswer": "Ein Passwort",
+      "wrongAnswers": ["Ein Spitzname", "Eine Telefonnummer", "Ein Code-Schloss", "Ein Haustürschlüssel"]
+    },
+    {
+      "id": 17,
+      "question": "Ich habe Seiten, Zeilen und Wörter. Du kannst in mir blättern, aber ich bin kein Buch. Ich erscheine jede Woche oder jeden Tag neu. Was bin ich?",
+      "correctAnswer": "Eine Zeitung",
+      "wrongAnswers": ["Ein Atlas", "Ein Stundenplan", "Ein Lexikon", "Ein Prospektständer"]
+    },
+    {
+      "id": 18,
+      "question": "Ich bin leicht wie eine Feder, aber auch der stärkste Mensch kann mich nicht lange halten. Was bin ich?",
+      "correctAnswer": "Der Atem",
+      "wrongAnswers": ["Ein Luftballon", "Eine Blume", "Ein Blatt Papier", "Ein Schneekristall"]
+    },
+    {
+      "id": 19,
+      "question": "Ich kann Türen öffnen, ohne Schlüssel zu benutzen. Ich bin eine Information, die nur wenige kennen. Was bin ich?",
+      "correctAnswer": "Ein Geheimcode",
+      "wrongAnswers": ["Ein Hammer", "Ein Schraubenzieher", "Ein Türgriff", "Ein Spiegel"]
+    },
+    {
+      "id": 20,
+      "question": "Ich bewege mich nie, aber ich komme jedem entgegen. Wenn du zu mir läufst, bleibe ich immer gleich weit entfernt. Was bin ich?",
+      "correctAnswer": "Der Horizont",
+      "wrongAnswers": ["Ein Berg", "Ein Schatten", "Eine Wolke", "Eine Straße"]
+    },
+    {
+      "id": 21,
+      "question": "Je mehr von mir auf dem Boden liegt, desto schmutziger wird dein Zimmer. Gleichzeitig wird mein Block immer dünner. Was bin ich?",
+      "correctAnswer": "Ein Radiergummi, der krümelt",
+      "wrongAnswers": ["Ein Bleistiftspitzer", "Ein Lineal", "Ein Klebestift", "Ein Wachsmalstift"]
+    },
+    {
+      "id": 22,
+      "question": "Wenn du mich brauchst, wirfst du mich weg. Wenn du mich nicht mehr brauchst, holst du mich wieder heraus. Was bin ich?",
+      "correctAnswer": "Ein Anker",
+      "wrongAnswers": ["Ein Regenschirm", "Ein Gürtel", "Ein Koffer", "Ein Fallschirm"]
+    },
+    {
+      "id": 23,
+      "question": "Ich kann in der Vergangenheit, Gegenwart und Zukunft sein, und doch bin ich nur ein Wort. Was bin ich?",
+      "correctAnswer": "Das Wort 'jetzt'",
+      "wrongAnswers": ["Das Wort 'morgen'", "Das Wort 'gestern'", "Das Wort 'bald'", "Das Wort 'später'"]
+    },
+    {
+      "id": 24,
+      "question": "Ich bin immer vor dir, aber du kannst mich nie einholen. Wenn du dich bewegst, bewege ich mich auch. Was bin ich?",
+      "correctAnswer": "Die Zukunft",
+      "wrongAnswers": ["Der Busfahrplan", "Dein Spiegelbild", "Der Schatten", "Der Horizont"]
+    },
+    {
+      "id": 25,
+      "question": "Je mehr Lichter du in mir anmachst, desto mehr verliere ich meine Dunkelheit. Was bin ich?",
+      "correctAnswer": "Ein Raum",
+      "wrongAnswers": ["Eine Kerze", "Der Nachthimmel", "Eine Höhle", "Eine Lampe"]
+    },
+    {
+      "id": 26,
+      "question": "Ich bin ein Zimmer ohne Türen und Fenster, und trotzdem wohnen dort viele Lebewesen. Was bin ich?",
+      "correctAnswer": "Ein Aquarium oder Terrarium",
+      "wrongAnswers": ["Ein Käfig", "Ein Zelt", "Eine Schublade", "Eine Garage"]
+    },
+    {
+      "id": 27,
+      "question": "Ich habe Hände, die nie greifen, und ein Gesicht, das nie lacht. Ich erzähle dir trotzdem die ganze Zeit, wie spät es ist. Was bin ich?",
+      "correctAnswer": "Eine Uhr",
+      "wrongAnswers": ["Ein Kalender", "Ein Wecker ohne Zeiger", "Ein Thermometer", "Ein Spiegel"]
+    },
+    {
+      "id": 28,
+      "question": "Ich bin schwer zu fangen, aber leicht zu verlieren. Ohne mich fühlt sich vieles leer an. Was bin ich?",
+      "correctAnswer": "Vertrauen",
+      "wrongAnswers": ["Ein Ball", "Zeit", "Geld", "Ein Haustier"]
+    },
+    {
+      "id": 29,
+      "question": "Ich kann dich überallhin bringen, ohne dass du einen Schritt machst. Manchmal bin ich bunt, manchmal schwarzweiß. Was bin ich?",
+      "correctAnswer": "Deine Fantasie",
+      "wrongAnswers": ["Ein Auto", "Ein Gemälde", "Ein Laptop", "Ein Fahrstuhl"]
+    },
+    {
+      "id": 30,
+      "question": "Ich habe Wurzeln, die niemand sieht, und ich bin höher als ein Baum. Ich wachse nicht, und doch bin ich riesig. Was bin ich?",
+      "correctAnswer": "Ein Berg",
+      "wrongAnswers": ["Ein Pilz", "Ein Wolkenkratzer", "Ein Vulkan in einem Buch", "Ein Leuchtturm"]
+    },
+    {
+      "id": 31,
+      "question": "Ich kann etwas brechen, ohne es zu berühren. Manchmal tut es weh, manchmal macht es froh. Was bin ich?",
+      "correctAnswer": "Eine Nachricht",
+      "wrongAnswers": ["Ein Hammer", "Ein Glas", "Ein Brötchen", "Ein Schlüssel"]
+    },
+    {
+      "id": 32,
+      "question": "Ich bin nicht lebendig, aber ich wachse. Ich brauche Luft, aber kein Wasser. Ich kann Häuser zerstören, aber auch wärmen. Was bin ich?",
+      "correctAnswer": "Feuer",
+      "wrongAnswers": ["Schimmel", "Rost", "Eis", "Ein Sturm"]
+    },
+    {
+      "id": 33,
+      "question": "Ich habe kein Gehirn und keinen Mund, aber ich kann dir Antworten geben. Du stellst mir Fragen über eine Tastatur. Was bin ich?",
+      "correctAnswer": "Eine Suchmaschine oder ein Computerprogramm",
+      "wrongAnswers": ["Ein Telefonbuch", "Ein Lehrer", "Ein Roboter-Spielzeug", "Ein Taschenrechner"]
+    },
+    {
+      "id": 34,
+      "question": "Ich bin eine Tür, die nach oben und unten fährt. Viele Menschen benutzen mich, um schneller zu sein, aber ich bleibe immer am gleichen Ort. Was bin ich?",
+      "correctAnswer": "Ein Fahrstuhl",
+      "wrongAnswers": ["Eine Rolltreppe", "Eine Leiter", "Eine Rutsche", "Ein Zug"]
+    },
+    {
+      "id": 35,
+      "question": "Ich habe einen Hals, aber keinen Kopf. Ich trage manchmal einen Deckel und halte etwas zu trinken. Was bin ich?",
+      "correctAnswer": "Eine Flasche",
+      "wrongAnswers": ["Ein Krug", "Ein Glas", "Eine Vase", "Ein Eimer"]
+    },
+    {
+      "id": 36,
+      "question": "Ich habe Augen, die nie sehen, und einen Kopf, der nie denkt. Ich liege öfter im Federmäppchen als auf deinem Kopf. Was bin ich?",
+      "correctAnswer": "Eine Stecknadel oder Reißzwecke",
+      "wrongAnswers": ["Ein Radiergummi", "Ein Haarband", "Ein Pinsel", "Ein Textmarker"]
+    },
+    {
+      "id": 37,
+      "question": "Ich bin ein Raum voller Geschichten, aber ich bin kein Kino. In mir ist es leise, aber die Köpfe sind laut. Was bin ich?",
+      "correctAnswer": "Eine Bibliothek",
+      "wrongAnswers": ["Ein Klassenzimmer", "Eine Turnhalle", "Ein Museum", "Ein Theater"]
+    },
+    {
+      "id": 38,
+      "question": "Ich habe Flügel, aber ich fliege nicht selbst. Ich helfe anderen beim Fliegen. Was bin ich?",
+      "correctAnswer": "Ein Flugzeugflügel",
+      "wrongAnswers": ["Ein Vogel", "Ein Papierflieger", "Ein Hubschrauber", "Ein Drachen"]
+    },
+    {
+      "id": 39,
+      "question": "Ich trage viele Informationen in mir, obwohl ich sehr klein sein kann. Man steckt mich in einen Computer, um Daten zu speichern. Was bin ich?",
+      "correctAnswer": "Ein USB-Stick",
+      "wrongAnswers": ["Eine Batterie", "Eine Maus", "Ein Kabel", "Ein Lautsprecher"]
+    },
+    {
+      "id": 40,
+      "question": "Ich habe keine Stimme, aber ich kann singen. Ich habe keine Finger, aber ich kann spielen. Ohne mich wäre ein Film oft langweilig. Was bin ich?",
+      "correctAnswer": "Die Musik",
+      "wrongAnswers": ["Der Bildschirm", "Die Schauspieler", "Die Untertitel", "Die Beleuchtung"]
+    },
+    {
+      "id": 41,
+      "question": "Ich kann dir zeigen, wo du bist, ohne dich zu bewegen. Ich kenne Norden, Süden, Osten und Westen. Was bin ich?",
+      "correctAnswer": "Ein Kompass",
+      "wrongAnswers": ["Ein Kalender", "Ein Thermometer", "Ein Stundenplan", "Ein Navi-Halter"]
+    },
+    {
+      "id": 42,
+      "question": "Ich bin unsichtbar und mache doch alles nass. Ich schwebe in der Luft und werde zu Wolken. Was bin ich?",
+      "correctAnswer": "Wasserdampf",
+      "wrongAnswers": ["Nebel", "Wind", "Regen", "Rauch"]
+    },
+    {
+      "id": 43,
+      "question": "Ich bin kein Tier, aber ich habe eine Zunge. Ich bin in der Küche und mag Marmelade. Was bin ich?",
+      "correctAnswer": "Ein Löffel",
+      "wrongAnswers": ["Ein Messer", "Ein Herd", "Ein Teebeutel", "Ein Topfdeckel"]
+    },
+    {
+      "id": 44,
+      "question": "Ich habe Ringe, aber keinen Finger. Ich bin riesig, aber man sieht mich nur von außen. Was bin ich?",
+      "correctAnswer": "Der Planet Saturn",
+      "wrongAnswers": ["Ein Schlüsselbund", "Ein Baumstamm", "Ein Magnetring", "Ein Hula-Hoop-Reifen"]
+    },
+    {
+      "id": 45,
+      "question": "Ich habe Löcher, durch die Licht scheint, aber ich bin nicht kaputt. Nachts kannst du mich gut sehen. Was bin ich?",
+      "correctAnswer": "Ein Sternenhimmel",
+      "wrongAnswers": ["Ein Vorhang", "Ein alter Pullover", "Ein Käse", "Ein Zelt"]
+    },
+    {
+      "id": 46,
+      "question": "Ich liege in deinem Kopf, aber man kann mich nicht sehen. Manchmal bin ich klar, manchmal durcheinander. Was bin ich?",
+      "correctAnswer": "Ein Gedanke",
+      "wrongAnswers": ["Ein Ohrwurm", "Ein Traum", "Eine Kopfschmerztablette", "Ein Gehirnzellchen aus Plastik"]
+    },
+    {
+      "id": 47,
+      "question": "Ich komme oft vor dem Lachen und manchmal nach dem Schreck. Ich bin nur ein kurzer Laut, aber sehr ansteckend. Was bin ich?",
+      "correctAnswer": "Ein Kichern",
+      "wrongAnswers": ["Ein Gähnen", "Ein Niesen", "Ein Husten", "Ein Schnarchen"]
+    },
+    {
+      "id": 48,
+      "question": "Ich kann Türen verschließen, ohne sie zu berühren. Ich bin nur ein kleines Stück Metall, das das Schloss blockiert. Was bin ich?",
+      "correctAnswer": "Ein Schlüssel im Schloss",
+      "wrongAnswers": ["Ein Nagel", "Ein Magnet", "Ein Klebestreifen", "Ein Stück Holz"]
+    },
+    {
+      "id": 49,
+      "question": "Ich bin da, bevor du geboren wirst, und bleibe, wenn du nicht mehr da bist. Ich ändere mich mit jedem Tag. Was bin ich?",
+      "correctAnswer": "Die Geschichte",
+      "wrongAnswers": ["Die Wettervorhersage", "Der Stundenplan", "Die Einkaufsliste", "Der Kalender von morgen"]
+    },
+    {
+      "id": 50,
+      "question": "Ich bin eine Reise, die du im Sitzen machen kannst. Du brauchst nur deine Augen und deinen Kopf. Manchmal machst du sie nachts, manchmal im Unterricht. Was bin ich?",
+      "correctAnswer": "Ein Tagtraum oder Traum",
+      "wrongAnswers": ["Ein Computerspiel", "Ein Schulweg", "Ein Urlaub", "Eine Klassenfahrt"]
+    }
+  ]
+}

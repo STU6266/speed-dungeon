@@ -1,0 +1,21 @@
+{
+  "name": "speed-dungeon",
+  "version": "1.0.0",
+  "description": "A standalone browser-based JavaScript dungeon game with age-based difficulty, JSON-driven rooms and mobile controls.",
+  "private": true,
+  "scripts": {
+    "start": "npx serve .",
+    "test": "node scripts/smoke-test.js"
+  },
+  "keywords": [
+    "javascript",
+    "browser-game",
+    "portfolio",
+    "vanilla-js"
+  ],
+  "author": "Steven Kemendics",
+  "license": "ISC",
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}

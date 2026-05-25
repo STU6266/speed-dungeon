@@ -1,0 +1,192 @@
+{
+  "12_15": [
+    {
+      "id": "group3_1",
+      "src": "assets/images/searchinggame/image_room_group3a.webp",
+      "alt": "Dungeon room with round shield, helmet, chest, book and spider",
+      "targets": [
+        {
+          "id": 1,
+          "name": "Helm",
+          "x": 76,
+          "y": 51,
+          "width": 15,
+          "height": 11
+        },
+        {
+          "id": 2,
+          "name": "Schild",
+          "x": 82,
+          "y": 35,
+          "width": 17,
+          "height": 12
+        },
+        {
+          "id": 3,
+          "name": "Zauberbuch",
+          "x": 64,
+          "y": 76,
+          "width": 28,
+          "height": 11
+        },
+        {
+          "id": 4,
+          "name": "langer Schlüssel",
+          "x": 5,
+          "y": 85,
+          "width": 13,
+          "height": 6
+        },
+        {
+          "id": 5,
+          "name": "Spinne",
+          "x": 88,
+          "y": 12,
+          "width": 8,
+          "height": 6
+        }
+      ]
+    },
+    {
+      "id": "group3_3",
+      "src": "assets/images/searchinggame/image_room_group3c.webp",
+      "alt": "Dark dungeon room with chest, helmet, keys and skeleton",
+      "targets": [
+        {
+          "id": 1,
+          "name": "Schwert",
+          "x": 22,
+          "y": 50,
+          "width": 6,
+          "height": 34
+        },
+        {
+          "id": 2,
+          "name": "Schlüssel",
+          "x": 49,
+          "y": 81,
+          "width": 13,
+          "height": 15
+        },
+        {
+          "id": 3,
+          "name": "Helm",
+          "x": 84,
+          "y": 42,
+          "width": 12,
+          "height": 22
+        },
+        {
+          "id": 4,
+          "name": "Dolch",
+          "x": 6,
+          "y": 81,
+          "width": 11,
+          "height": 17
+        },
+        {
+          "id": 5,
+          "name": "Schild",
+          "x": 68,
+          "y": 58,
+          "width": 14,
+          "height": 29
+        }
+      ]
+    },
+    {
+      "id": "group3_5",
+      "src": "assets/images/searchinggame/image_room_group3e.webp",
+      "alt": "Dungeon room with portal, chests, shield, books and weapons",
+      "targets": [
+        {
+          "id": 1,
+          "name": "Morgenstern",
+          "x": 68,
+          "y": 0,
+          "width": 8,
+          "height": 23
+        },
+        {
+          "id": 2,
+          "name": "Laterne",
+          "x": 46,
+          "y": 83,
+          "width": 6,
+          "height": 15
+        },
+        {
+          "id": 3,
+          "name": "goldenes Schild",
+          "x": 80,
+          "y": 81,
+          "width": 11,
+          "height": 14
+        },
+        {
+          "id": 4,
+          "name": "roter Zaubertrank",
+          "x": 6,
+          "y": 62,
+          "width": 7,
+          "height": 18
+        },
+        {
+          "id": 5,
+          "name": "Spinnennetz",
+          "x": 92,
+          "y": 1,
+          "width": 8,
+          "height": 19
+        }
+      ]
+    },
+    {
+      "id": "group3_6",
+      "src": "assets/images/searchinggame/image_room_group3f.webp",
+      "alt": "Dungeon room with statue, crown, sun shield, book and keys",
+      "targets": [
+        {
+          "id": 1,
+          "name": "Schlüssel",
+          "x": 90,
+          "y": 60,
+          "width": 8,
+          "height": 18
+        },
+        {
+          "id": 2,
+          "name": "eisen Schild",
+          "x": 86,
+          "y": 78,
+          "width": 9,
+          "height": 17
+        },
+        {
+          "id": 3,
+          "name": "Maya Statue",
+          "x": 24,
+          "y": 24,
+          "width": 10,
+          "height": 28
+        },
+        {
+          "id": 4,
+          "name": "Buch",
+          "x": 69,
+          "y": 54,
+          "width": 15,
+          "height": 12
+        },
+        {
+          "id": 5,
+          "name": "Krone",
+          "x": 19,
+          "y": 69,
+          "width": 11,
+          "height": 12
+        }
+      ]
+    }
+  ]
+}

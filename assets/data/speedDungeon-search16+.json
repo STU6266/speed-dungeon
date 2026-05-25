@@ -1,0 +1,240 @@
+
+  {
+  "16_plus": [
+    {
+      "id": "group4_1",
+      "src": "assets/images/searchinggame/image_room_group4a.webp",
+      "alt": "Dungeon room with mask, green box, golden spider, shield and medal head",
+      "targets": [
+        {
+          "id": 1,
+          "name": "maske",
+          "x": 7,
+          "y": 57,
+          "width": 10,
+          "height": 11
+        },
+        {
+          "id": 2,
+          "name": "grüne box",
+          "x": 14,
+          "y": 50,
+          "width": 10,
+          "height": 8
+        },
+        {
+          "id": 3,
+          "name": "goldene Spinne",
+          "x": 85,
+          "y": 21,
+          "width": 8,
+          "height": 11
+        },
+        {
+          "id": 4,
+          "name": "Schild",
+          "x": 40,
+          "y": 33,
+          "width": 7,
+          "height": 12
+        },
+        {
+          "id": 5,
+          "name": "Metall Kopf",
+          "x": 49,
+          "y": 1,
+          "width": 5,
+          "height": 10
+        }
+      ]
+    },
+    {
+      "id": "group4_2",
+      "src": "assets/images/searchinggame/image_room_group4b.webp",
+      "alt": "Dungeon room with wand, pearl neckless, crown, red bag and mask",
+      "targets": [
+        {
+          "id": 1,
+          "name": "Zauberstab",
+          "x": 18,
+          "y": 68,
+          "width": 13,
+          "height": 18
+        },
+        {
+          "id": 2,
+          "name": "Perlenkette",
+          "x": 81,
+          "y": 59,
+          "width": 3,
+          "height": 15
+        },
+        {
+          "id": 3,
+          "name": "Krone",
+          "x": 82,
+          "y": 51,
+          "width": 11,
+          "height": 12
+        },
+        {
+          "id": 4,
+          "name": "rote Tasche",
+          "x": 87,
+          "y": 33,
+          "width": 10,
+          "height": 15
+        },
+        {
+          "id": 5,
+          "name": "Maske",
+          "x": 47,
+          "y": 73,
+          "width": 11,
+          "height": 11
+        }
+      ]
+    },
+    {
+      "id": "group4_3",
+      "src": "assets/images/searchinggame/image_room_group4c.webp",
+      "alt": "Dark dungeon room with small dragon, treasure chest, green bottle, crown and cross",
+      "targets": [
+        {
+          "id": 1,
+          "name": "kleiner Drache",
+          "x": 80,
+          "y": 33,
+          "width": 9,
+          "height": 9
+        },
+        {
+          "id": 2,
+          "name": "Schatztruhe",
+          "x": 13,
+          "y": 47,
+          "width": 11,
+          "height": 10
+        },
+        {
+          "id": 3,
+          "name": "grünes Glas",
+          "x": 0,
+          "y": 75,
+          "width": 5,
+          "height": 15
+        },
+        {
+          "id": 4,
+          "name": "Krone",
+          "x": 2,
+          "y": 53,
+          "width": 8,
+          "height": 8
+        },
+        {
+          "id": 5,
+          "name": "Kreuz",
+          "x": 87,
+          "y": 24,
+          "width": 4,
+          "height": 14
+        }
+      ]
+    },
+    {
+      "id": "group4_5",
+      "src": "assets/images/searchinggame/image_room_group4d.webp",
+      "alt": "Dungeon room with monkey, lizard, dagger, frog and red robin",
+      "targets": [
+        {
+          "id": 1,
+          "name": "Affe",
+          "x": 24,
+          "y": 31,
+          "width": 5,
+          "height": 7
+        },
+        {
+          "id": 2,
+          "name": "Eidechse",
+          "x": 65,
+          "y": 74,
+          "width": 9,
+          "height": 10
+        },
+        {
+          "id": 3,
+          "name": "Dolch",
+          "x": 76,
+          "y": 62,
+          "width": 8,
+          "height": 7
+        },
+        {
+          "id": 4,
+          "name": "Frosch",
+          "x": 0,
+          "y": 74,
+          "width": 5,
+          "height": 10
+        },
+        {
+          "id": 5,
+          "name": "roter Rubin",
+          "x": 18,
+          "y": 66,
+          "width": 5,
+          "height": 5
+        }
+      ]
+    },
+    {
+      "id": "group4_6",
+      "src": "assets/images/searchinggame/image_room_group4e.webp",
+      "alt": "Dungeon room with armor, spider, helmet, bracelet and lion head",
+      "targets": [
+        {
+          "id": 1,
+          "name": "Rüstung",
+          "x": 47,
+          "y": 18,
+          "width": 7,
+          "height": 16
+        },
+        {
+          "id": 2,
+          "name": "Spinne",
+          "x": 28,
+          "y": 84,
+          "width": 12,
+          "height": 14
+        },
+        {
+          "id": 3,
+          "name": "Helm",
+          "x": 1,
+          "y": 43,
+          "width": 7,
+          "height": 12
+        },
+        {
+          "id": 4,
+          "name": "Armband",
+          "x": 64,
+          "y": 77,
+          "width": 6,
+          "height": 8
+        },
+        {
+          "id": 5,
+          "name": "Löwenkopf",
+          "x": 14,
+          "y": 27,
+          "width": 8,
+          "height": 11
+        }
+      ]
+    }
+  ]
+}
