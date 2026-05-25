@@ -1,0 +1,137 @@
+/* Fight room -------------------------------------------------- */
+
+/* Fight room – großer Bildbereich */
+.sd-fight-ui {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* weniger Abstand zum Rand der Karte */
+  margin: 1.25rem 0;
+  padding: 4rem 2rem;
+
+  border-radius: 1.75rem;
+  overflow: hidden;
+
+  /* Hintergrundbild */
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #020617;
+  min-height: 400px;
+  }
+
+/* Overlay bleibt, damit A/D gut lesbar ist */
+/* Hybrid image look:
+   blurred full background + sharp full image in front */
+.sd-fight-ui::before,
+.sd-riddle-area::before,
+.sd-lock-area::before,
+.sd-boss-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: inherit;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(16px);
+  transform: scale(1.08);
+  opacity: 0.45;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.sd-fight-ui::after,
+.sd-riddle-area::after,
+.sd-lock-area::after,
+.sd-boss-bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: inherit;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.sd-target-box,
+.sd-riddle-overlay,
+.sd-lock-overlay,
+.sd-boss-overlay {
+  position: relative;
+  z-index: 2;
+}
+
+.sd-target-box {
+  position: relative;
+  z-index: 3;
+  min-width: 320px;
+  text-align: center;
+}
+
+
+.sd-info-box {
+  display: none;
+}
+
+.sd-label {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  opacity: 0.9;
+  margin-bottom: 0.75rem;
+}
+
+/* großes Zeichen direkt im Bild */
+.sd-target-key {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  min-width: 0;
+  min-height: 0;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+
+  /* HIER wird A/D bzw. der Countdown wirklich groß */
+  font-size: clamp(8rem, 16vw, 14rem) !important;
+  line-height: 1 !important;
+  font-weight: 800;
+  letter-spacing: 0.22em;
+  color: #f9fafb;
+  text-shadow:
+    0 0 10px rgba(15, 23, 42, 0.9),
+    0 0 30px rgba(15, 23, 42, 0.95);
+
+  transition:
+    color 0.12s linear,
+    text-shadow 0.12s linear,
+    transform 0.12s linear;
+}
+
+/* Grün aufblitzen bei Treffer */
+.sd-target-key--hit {
+  color: #bbf7d0;
+  text-shadow:
+    0 0 10px rgba(34, 197, 94, 0.9),
+    0 0 30px rgba(34, 197, 94, 1),
+    0 0 60px rgba(34, 197, 94, 0.9);
+  transform: scale(1.1);
+}
+
+/* Rot aufblitzen bei Fehlversuch */
+.sd-target-key--miss {
+  color: #fecaca;
+  text-shadow:
+    0 0 10px rgba(239, 68, 68, 0.9),
+    0 0 30px rgba(239, 68, 68, 1),
+    0 0 60px rgba(239, 68, 68, 0.9);
+  transform: scale(0.9);
+}
+

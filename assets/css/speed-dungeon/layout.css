@@ -1,0 +1,98 @@
+/* Layout and styling for the Speed Dungeon browser game.
+*/
+
+.speed-dungeon-header {
+  margin-bottom: 2rem;
+}
+
+.speed-dungeon-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 260px) minmax(0, 1fr);
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.speed-dungeon-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.sd-age-form fieldset {
+  border: none;
+  padding: 0;
+  margin: 0 0 1rem;
+}
+
+.sd-age-form label {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.sd-hud {
+  padding: 1rem;
+}
+
+.sd-hud-title {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+
+.sd-hud-list {
+  margin: 0 0 1rem;
+}
+
+.sd-hud-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.95rem;
+}
+
+.sd-start-btn {
+  width: 100%;
+}
+
+.sd-progress-track {
+  width: 280px;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 999px;
+  margin-top: 0.5rem;
+  display: none;
+}
+
+.sd-progress-bar {
+  height: 100%;
+  width: 100%;
+  border-radius: 999px;
+  background: #ef4444;
+}
+
+.speed-dungeon-main {
+  min-height: 260px;
+}
+
+.speed-dungeon-root {
+  padding: 1.25rem;
+}
+
+.sd-status {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/* Room containers */
+
+.sd-room {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+.sd-start-panel.is-hidden {
+  display: none;
+}
+
+.is-hidden {
+  display: none;
+}
+

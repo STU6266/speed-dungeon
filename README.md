@@ -62,6 +62,11 @@ The Blueprint runs `npm test && npm run build` and publishes `./dist`.
 - Vanilla JavaScript
 - JSON data files
 
+## Documentation
+
+- [Architecture](docs/architecture.md)
+- [Deployment](docs/deployment.md)
+
 ## Project Structure
 
 ```text
@@ -72,7 +77,17 @@ speed-dungeon/
 ├─ assets/
 │  ├─ css/
 │  │  ├─ app.css
-│  │  └─ speed-dungeon.css
+│  │  ├─ speed-dungeon.css
+│  │  └─ speed-dungeon/
+│  │     ├─ layout.css
+│  │     ├─ fight.css
+│  │     ├─ image-room.css
+│  │     ├─ riddle.css
+│  │     ├─ corridor.css
+│  │     ├─ lock.css
+│  │     ├─ boss-and-picture-rooms.css
+│  │     ├─ start-and-answers.css
+│  │     └─ mobile-controls.css
 │  ├─ js/
 │  │  └─ speed-dungeon.js
 │  ├─ data/
@@ -84,5 +99,6 @@ speed-dungeon/
 │     ├─ riddlegame/
 │     └─ searchinggame/
 └─ scripts/
+   ├─ build-static.js
    └─ smoke-test.js
 ```

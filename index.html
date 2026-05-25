@@ -22,7 +22,7 @@
   <section class="projects-header speed-dungeon-header">
     <h2>Speed Dungeon – JavaScript Browser Game</h2>
     <p>
-      A fast reaction dungeon game concept. This prototype showcases multiple
+      A fast reaction dungeon game with multiple
       rooms: a corridor lane run, a reaction-based fight room, a math-based
       lock room, an image hunt room, and a riddle room. All rooms are adapted
       to different age groups and are played within a limited run time.
@@ -50,31 +50,6 @@
             <dd id="sd-timer">03:00</dd>
           </div>
         </dl>
-        
-        <!-- Developer test controls. Hidden in normal portfolio view. -->
-        <div class="sd-actions sd-test-actions is-hidden">
-          <button id="sd-start-corridor-btn" class="btn primary sd-start-btn" type="button">
-            Start Corridor
-          </button>
-          <button id="sd-start-fight-btn" class="btn sd-start-btn">
-            Start Fight Room
-          </button>
-          <button id="sd-start-lock-btn" class="btn sd-start-btn">
-            Start Lock Room
-          </button>
-          <button id="sd-start-image-btn" class="btn sd-start-btn">
-            Start Image Room
-          </button>
-          <button id="sd-start-riddle-btn" class="btn sd-start-btn">
-            Start Riddle Room
-          </button>
-          <button id="sd-start-boss-btn" class="btn sd-start-btn sd-test-boss-btn" type="button">
-            Start Boss (Test)
-          </button>
-          <button id="sd-stop-btn" class="btn sd-start-btn sd-test-stop-btn" type="button">
-            Stop (nur zum Testen)
-          </button>
-        </div>
       </div>
     </aside>
 
@@ -165,7 +140,6 @@
               </div>
             </div>
 
-            <!-- Debug-Infos bleiben versteckt (display:none in CSS) -->
             <div class="sd-info-box">
               <p id="sd-hits" class="sd-info-line">Hits: 0 / 0</p>
               <p id="sd-time" class="sd-info-line">Time limit: – ms</p>

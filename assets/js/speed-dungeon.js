@@ -64,12 +64,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const bossResultTextEl = document.getElementById("sd-boss-result-text");
   const corridorInfoEl = document.getElementById("sd-corridor-info");
 
-  const startFightBtn = document.getElementById("sd-start-fight-btn");
-  const startLockBtn = document.getElementById("sd-start-lock-btn");
-  const startImageBtn = document.getElementById("sd-start-image-btn");
-  const startRiddleBtn = document.getElementById("sd-start-riddle-btn");
-  const startCorridorBtn = document.getElementById("sd-start-corridor-btn");
-  const startBossBtn = document.getElementById("sd-start-boss-btn");
   const startDungeonBtn = document.getElementById("sd-start-dungeon-btn");
   const startPanel = document.getElementById("sd-start-panel");
 
@@ -418,23 +412,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // ---------------------------------------------------------------------------
   // Run timer
   // ---------------------------------------------------------------------------
-  
-  // NUR ZUM TESTEN – Stop-Button
-  const stopBtn = document.getElementById("sd-stop-btn");
-  if (stopBtn) {
-    stopBtn.addEventListener("click", () => {
-      runState.runEnded = true;
-      runState.runStarted = false;
-      corridorState.active = false;
-      fightState.active = false;
-      lockState.active = false;
-      imageState.active = false;
-      riddleState.active = false;
-      stopRunTimer();
-      setStatus("Spiel gestoppt (Test-Modus). Seite neu laden zum Neustart.");
-    });
-  }
-  
+    
   function startRunIfNeeded() {
     if (runState.runStarted || runState.runEnded) return;
 
@@ -840,12 +818,6 @@ document.addEventListener("DOMContentLoaded", () => {
     clearImageHotspots();
     clearCorridorUi();
 
-    if (startFightBtn) startFightBtn.disabled = true;
-    if (startLockBtn) startLockBtn.disabled = true;
-    if (startImageBtn) startImageBtn.disabled = true;
-    if (startRiddleBtn) startRiddleBtn.disabled = true;
-    if (startCorridorBtn) startCorridorBtn.disabled = true;
-
     setStatus("Run time is over! Prepare for the Boss Fight...");
     window.setTimeout(() => {
       startBossCountdown();
@@ -996,11 +968,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     fightState.active = true;
-    if (startFightBtn) startFightBtn.disabled = true;
-    if (startLockBtn && !runState.runEnded) startLockBtn.disabled = false;
-    if (startImageBtn && !runState.runEnded) startImageBtn.disabled = false;
-    if (startRiddleBtn && !runState.runEnded) startRiddleBtn.disabled = false;
-    if (startCorridorBtn && !runState.runEnded) startCorridorBtn.disabled = false;
 
     showFightUi();
 
@@ -1415,12 +1382,6 @@ document.addEventListener("DOMContentLoaded", () => {
     lockState.active = true;
     lockState.currentEquation = generateLockEquation(runState.ageKey);
 
-    if (startLockBtn) startLockBtn.disabled = true;
-    if (startFightBtn && !runState.runEnded) startFightBtn.disabled = false;
-    if (startImageBtn && !runState.runEnded) startImageBtn.disabled = false;
-    if (startRiddleBtn && !runState.runEnded) startRiddleBtn.disabled = false;
-    if (startCorridorBtn && !runState.runEnded) startCorridorBtn.disabled = false;
-
     showLockUi();
     startRunIfNeeded();
 
@@ -1727,12 +1688,6 @@ document.addEventListener("DOMContentLoaded", () => {
     imageState.currentImage = imgObj;
     imageState.currentTarget = target;
 
-    if (startImageBtn) startImageBtn.disabled = true;
-    if (startFightBtn && !runState.runEnded) startFightBtn.disabled = false;
-    if (startLockBtn && !runState.runEnded) startLockBtn.disabled = false;
-    if (startRiddleBtn && !runState.runEnded) startRiddleBtn.disabled = false;
-    if (startCorridorBtn && !runState.runEnded) startCorridorBtn.disabled = false;
-
     showImageUi();
     startRunIfNeeded();
     setStatus("Image room started. Find the requested object and click on it.");
@@ -1961,12 +1916,6 @@ document.addEventListener("DOMContentLoaded", () => {
     riddleState.hadWrongChoice = false;
     riddleState.selectedAnswerIndex = 0;
 
-    if (startRiddleBtn) startRiddleBtn.disabled = true;
-    if (startFightBtn && !runState.runEnded) startFightBtn.disabled = false;
-    if (startLockBtn && !runState.runEnded) startLockBtn.disabled = false;
-    if (startImageBtn && !runState.runEnded) startImageBtn.disabled = false;
-    if (startCorridorBtn && !runState.runEnded) startCorridorBtn.disabled = false;
-
     showRiddleUi();
     startRunIfNeeded();
 
@@ -2114,11 +2063,6 @@ document.addEventListener("DOMContentLoaded", () => {
   corridorState.spawnIntervalMs = cfg.spawnIntervalMs;
 
   // Buttons aktualisieren
-  if (startCorridorBtn) startCorridorBtn.disabled = true;
-  if (startFightBtn && !runState.runEnded) startFightBtn.disabled = false;
-  if (startLockBtn && !runState.runEnded) startLockBtn.disabled = false;
-  if (startImageBtn && !runState.runEnded) startImageBtn.disabled = false;
-  if (startRiddleBtn && !runState.runEnded) startRiddleBtn.disabled = false;
 
   // UI anzeigen
   showCorridorUi();
@@ -2142,8 +2086,6 @@ function spawnCorridorRow() {
   // machen wir diesmal garantiert eine "Pause" (keine neuen Blöcke).
   if (corridorState.lastSpawnHadBlock) {
     corridorState.lastSpawnHadBlock = false;
-    // Optionales Debug:
-    // console.log("[Corridor] pause row (no block this time)");
     return;
   }
 
@@ -2413,42 +2355,6 @@ function handleRiddleKeyboard(key) {
   // ---------------------------------------------------------------------------
   // Event wiring & init
   // ---------------------------------------------------------------------------
-  if (startFightBtn) {
-    startFightBtn.addEventListener("click", () => {
-      if (fightState.active) return;
-      startFightRoom();
-    });
-  }
-
-  if (startLockBtn) {
-    startLockBtn.addEventListener("click", () => {
-      if (lockState.active) return;
-      startLockRoom();
-    });
-  }
-
-  if (startImageBtn) {
-    startImageBtn.addEventListener("click", () => {
-      if (imageState.active) return;
-      startImageRoom();
-    });
-  }
-
-  if (startRiddleBtn) {
-    startRiddleBtn.addEventListener("click", () => {
-      if (riddleState.active) return;
-      startRiddleRoom();
-    });
-  }
-
-  if (startCorridorBtn) {
-    startCorridorBtn.addEventListener("click", () => {
-      if (corridorState.active) return;
-   
-      startCorridorRoom();
-    });
-  }
-
   if (startDungeonBtn) {
     startDungeonBtn.addEventListener("click", () => {
       if (runState.runStarted || runState.runEnded) return;
@@ -2460,12 +2366,6 @@ function handleRiddleKeyboard(key) {
       }
 
       startCorridorRoom();
-    });
-  }
-
-  if (startBossBtn) {
-    startBossBtn.addEventListener("click", () => {
-      startBossCountdown();
     });
   }
 

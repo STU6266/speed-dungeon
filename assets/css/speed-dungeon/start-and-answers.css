@@ -1,0 +1,42 @@
+/* Start panel -------------------------------------------------------------- */
+
+.sd-start-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.sd-age-form-main {
+  padding: 1rem;
+  border-radius: 1rem;
+  background: rgba(15, 23, 42, 0.06);
+}
+
+.sd-age-form-main fieldset {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.sd-age-form-main legend {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.sd-start-dungeon-btn {
+  width: fit-content;
+  min-width: 180px;
+}
+
+/* Keyboard-selected answer buttons ---------------------------------------- */
+
+.sd-answer-btn--selected {
+  outline: 3px solid #fde68a;
+  outline-offset: 3px;
+  background: rgba(180, 83, 9, 0.95) !important;
+  border-color: #fde68a !important;
+  box-shadow:
+    0 0 0 2px rgba(15, 23, 42, 0.8),
+    0 0 18px rgba(253, 230, 138, 0.8);
+  transform: translateY(-1px);
+}
+

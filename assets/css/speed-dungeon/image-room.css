@@ -1,0 +1,59 @@
+/* Image room */
+
+.sd-image-wrapper {
+  position: relative;
+  max-width: 100%;
+  margin-bottom: 0.75rem;
+}
+
+.sd-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.sd-image-hotspots {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.sd-image-hotspot-btn {
+  position: absolute;
+  border: none;
+  background: transparent;
+  border-radius: 8px;
+  padding: 0;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.sd-image-instruction {
+  margin: 0 0 0.9rem;
+  text-align: center;
+}
+
+.sd-image-find-label {
+  display: block;
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #fde68a;
+}
+
+.sd-image-find-target {
+  display: inline-block;
+  margin-top: 0.35rem;
+  padding: 0.45rem 0.9rem;
+  border: 2px solid rgba(253, 230, 138, 0.9);
+  border-radius: 999px;
+  background: rgba(15, 23, 42, 0.86);
+  color: #ffffff;
+  font-size: clamp(1.3rem, 4vw, 2.4rem);
+  line-height: 1.1;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  text-shadow: 0 0 14px rgba(0, 0, 0, 0.9);
+}
+
